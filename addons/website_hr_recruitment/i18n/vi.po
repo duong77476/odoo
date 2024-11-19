@@ -400,7 +400,7 @@ msgstr ""
 "Mỗi nhân viên có cơ hội nhìn thấy tầm ảnh hưởng của công việc của mình.\n"
 "               Bạn có thể đóng góp thực sự cho sự thành công của công ty.\n"
 "                <br/>\n"
-"                Khá nhiều hoạt động được thường xuyên tổ chức trong năm, ví dụ như\n"
+"                Nhiều hoạt động được thường xuyên tổ chức trong năm, ví dụ như\n"
 "                buổi tập thể thao hàng tuần, sự kiện kết nối đội ngũ, đồ uống hàng tháng và hơn thế nữa"
 
 #. module: website_hr_recruitment

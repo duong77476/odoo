@@ -3803,8 +3803,7 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_config.py:0
 #, python-format
 msgid "Only administrators can edit receipt headers and footers"
-msgstr ""
-"Chỉ quản trị viên mới có thể chỉnh sửa đầu trang và chân trang của biên lai"
+msgstr "Chỉ quản trị viên mới có thể chỉnh sửa header và footer của biên lai"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__only_round_cash_method
@@ -7630,6 +7629,8 @@ msgid ""
 "You do not have permission to open a POS session. Please try opening a "
 "session with a different user"
 msgstr ""
+"Bạn không có quyền mở phiên POS. Vui lòng thử mở phiên bằng tài khoản người "
+"dùng khác"
 
 #. module: point_of_sale
 #. odoo-python
