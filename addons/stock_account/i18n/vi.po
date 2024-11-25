@@ -103,7 +103,7 @@ msgstr "Mẫu sơ đồ tài khoản"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__account_move_ids
 msgid "Account Move"
-msgstr "Dịch chuyển tài khoản"
+msgstr "Điều chuyển tài khoản"
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_category_property_form
@@ -304,7 +304,7 @@ msgid ""
 "Counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account\n"
 "                set on the source location. This is the default value for all products in this category. It can also directly be set on each product."
 msgstr ""
-"Các bút toán đối ứng cho tất cả dịch chuyển nhập hàng sẽ được ghi vào tài khoản này, trừ khi có một tài khoản định giá cụ thể\n"
+"Các bút toán đối ứng cho tất cả điều chuyển nhập hàng sẽ được ghi vào tài khoản này, trừ khi có một tài khoản định giá cụ thể\n"
 "                được thiết lập trong địa điểm nguồn. Đây là giá trị mặc định cho tất cả sản phẩm trong danh mục này. Nó cũng có thể được thiết lập trực tiếp trên từng sản phẩm."
 
 #. module: stock_account
@@ -535,7 +535,7 @@ msgstr ""
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Moved Quantity"
-msgstr "Số lượng đã dịch chuyển"
+msgstr "Số lượng đã điều chuyển"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__new_value
@@ -574,7 +574,7 @@ msgstr "Nhóm sản phẩm"
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
-msgstr "Dịch chuyển sản phẩm (Dòng dịch chuyển tồn kho)"
+msgstr "Điều chuyển sản phẩm (Dòng điều chuyển tồn kho)"
 
 #. module: stock_account
 #. odoo-python
@@ -715,7 +715,7 @@ msgstr "Sổ nhật ký tồn kho"
 #: model:ir.model.fields,field_description:stock_account.field_account_payment__stock_move_id
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__stock_move_id
 msgid "Stock Move"
-msgstr "Dịch chuyển tồn kho"
+msgstr "Điều chuyển tồn kho"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_category__property_stock_account_output_categ_id
@@ -829,7 +829,7 @@ msgid ""
 "The move lines are not in a consistent state: some are entering and other "
 "are leaving the company."
 msgstr ""
-"Chi tiết dịch chuyển không nhất quán: một số đang nhập vào và một số khác "
+"Chi tiết điều chuyển không nhất quán: một số đang nhập vào và một số khác "
 "đang xuất ra khỏi công ty."
 
 #. module: stock_account
@@ -853,7 +853,7 @@ msgid ""
 "The move lines are not in a consistent states: they do not share the same "
 "origin or destination company."
 msgstr ""
-"Chi tiết dịch chuyển không nhất quán: chúng không có cùng xuất xứ hoặc công "
+"Chi tiết điều chuyển không nhất quán: chúng không có cùng xuất xứ hoặc công "
 "ty đích."
 
 #. module: stock_account
@@ -875,7 +875,7 @@ msgid ""
 "There are no valuation layers. Valuation layers are created when there are "
 "product moves that impact the valuation of the stock."
 msgstr ""
-"Không có lớp định giá. Các lớp định giá được tạo ra khi có những dịch chuyển"
+"Không có lớp định giá. Các lớp định giá được tạo ra khi có những điều chuyển"
 " sản phẩm ảnh hưởng đến việc định giá tồn kho."
 
 #. module: stock_account

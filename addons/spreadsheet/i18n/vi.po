@@ -206,7 +206,7 @@ msgid ""
 "column or row of range."
 msgstr ""
 "Một cột hoặc hàng chứa các giá trị đúng hoặc sai tương ứng với cột hoặc hàng"
-" đầu tiên của dải ô."
+" đầu tiên của phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -336,7 +336,7 @@ msgid ""
 "A range containing the income or payments associated with the investment. "
 "The array should contain bot payments and incomes."
 msgstr ""
-"Một dải ô chứa thu nhập hoặc các khoản thanh toán liên quan đến khoản đầu "
+"Một phạm vi chứa thu nhập hoặc các khoản thanh toán liên quan đến khoản đầu "
 "tư. Mảng phải chứa cả các khoản thanh toán và thu nhập."
 
 #. module: spreadsheet
@@ -353,7 +353,7 @@ msgstr "Một phạm vi cần phải được xác định"
 msgid ""
 "A range or array constant containing the date serial numbers to consider "
 "holidays."
-msgstr "Một hằng số mảng hoặc dải ô chứa số sê-ri ngày được coi là ngày lễ."
+msgstr "Một hằng số mảng hoặc phạm vi chứa số sê-ri ngày được coi là ngày lễ."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -361,7 +361,7 @@ msgstr "Một hằng số mảng hoặc dải ô chứa số sê-ri ngày đư�
 #, python-format
 msgid ""
 "A range or array constant containing the dates to consider as holidays."
-msgstr "Một hằng số mảng hoặc dải ô chứa ngày được coi là ngày lễ."
+msgstr "Một hằng số mảng hoặc phạm vi chứa ngày được coi là ngày lễ."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -369,7 +369,7 @@ msgstr "Một hằng số mảng hoặc dải ô chứa ngày được coi là n
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "A range or array constant containing the dates to consider holidays."
-msgstr "Một hằng số mảng hoặc dải ô chứa ngày được coi là ngày lễ."
+msgstr "Một hằng số mảng hoặc phạm vi chứa ngày được coi là ngày lễ."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -568,7 +568,7 @@ msgstr "Dòng tiền bổ sung trong tương lai."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Additional numbers or ranges to add to value1."
-msgstr "Các số hoặc dải ô bổ sung cần thêm vào value1."
+msgstr "Các số hoặc phạm vi bổ sung cần thêm vào value1."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -582,8 +582,8 @@ msgid ""
 "filtered set will be the intersection of the sets produced by each "
 "criterion-range pair."
 msgstr ""
-"Dải ô bổ sung để đánh giá các tiêu chí bổ sung. Tập hợp được lọc sẽ là giao "
-"điểm của các tập hợp được tạo bởi mỗi cặp dải ô tiêu chí."
+"Phạm vi bổ sung để đánh giá các tiêu chí bổ sung. Tập hợp được lọc sẽ là "
+"giao điểm của các tập hợp được tạo bởi mỗi cặp phạm vi tiêu chí."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -591,21 +591,21 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Additional ranges to add to range1."
-msgstr "Dải ô bổ sung cần thêm vào range1."
+msgstr "Phạm vi bổ sung cần thêm vào range1."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Additional ranges to check."
-msgstr "Dải ô bổ sung cần kiểm tra."
+msgstr "Phạm vi bổ sung cần kiểm tra."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Additional ranges to flatten."
-msgstr "Dải ô bổ sung cần làm phẳng."
+msgstr "Phạm vi bổ sung cần làm phẳng."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -619,14 +619,14 @@ msgstr "(Các) mục văn bản bổ sung"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Additional values or ranges in which to count the number of blanks."
-msgstr "Các giá trị hoặc dải ô bổ sung cần đếm số lượng khoảng trống."
+msgstr "Các giá trị hoặc phạm vi bổ sung cần đếm số lượng khoảng trống."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Additional values or ranges to consider for uniqueness."
-msgstr "Các giá trị hoặc dải ô bổ sung cần xem xét về tính duy nhất."
+msgstr "Các giá trị hoặc phạm vi bổ sung cần xem xét về tính duy nhất."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -636,7 +636,7 @@ msgstr "Các giá trị hoặc dải ô bổ sung cần xem xét về tính duy 
 msgid ""
 "Additional values or ranges to consider when calculating the average value."
 msgstr ""
-"Các giá trị hoặc dải ô bổ sung cần xem xét khi tính giá trị trung bình."
+"Các giá trị hoặc phạm vi bổ sung cần xem xét khi tính giá trị trung bình."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -645,7 +645,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Additional values or ranges to consider when calculating the maximum value."
-msgstr "Các giá trị hoặc dải ô bổ sung cần xem xét khi tính giá trị tối đa."
+msgstr "Các giá trị hoặc phạm vi bổ sung cần xem xét khi tính giá trị tối đa."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -653,7 +653,7 @@ msgstr "Các giá trị hoặc dải ô bổ sung cần xem xét khi tính giá 
 #, python-format
 msgid ""
 "Additional values or ranges to consider when calculating the median value."
-msgstr "Các giá trị hoặc dải ô bổ sung cần xem xét khi tính giá trị ở giữa."
+msgstr "Các giá trị hoặc phạm vi bổ sung cần xem xét khi tính giá trị ở giữa."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -663,7 +663,7 @@ msgstr "Các giá trị hoặc dải ô bổ sung cần xem xét khi tính giá 
 msgid ""
 "Additional values or ranges to consider when calculating the minimum value."
 msgstr ""
-"Các giá trị hoặc dải ô bổ sung cần xem xét khi tính giá trị tối thiểu."
+"Các giá trị hoặc phạm vi bổ sung cần xem xét khi tính giá trị tối thiểu."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -671,7 +671,7 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Additional values or ranges to consider when counting."
-msgstr "Các giá trị hoặc dải ô bổ sung cần xem xét khi đếm."
+msgstr "Các giá trị hoặc phạm vi bổ sung cần xem xét khi đếm."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -683,7 +683,7 @@ msgstr "Các giá trị hoặc dải ô bổ sung cần xem xét khi đếm."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Additional values or ranges to include in the population."
-msgstr "Các giá trị hoặc dải ô bổ sung để đưa vào tập hợp."
+msgstr "Các giá trị hoặc phạm vi bổ sung để đưa vào tập hợp."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -696,7 +696,7 @@ msgstr "Các giá trị hoặc dải ô bổ sung để đưa vào tập hợp."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Additional values or ranges to include in the sample."
-msgstr "Các giá trị hoặc dải ô bổ sung để đưa vào mẫu."
+msgstr "Các giá trị hoặc phạm vi bổ sung để đưa vào mẫu."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -761,7 +761,7 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "All the ranges must have the same dimensions."
-msgstr "Tất cả dải ô phải có cùng danh mục."
+msgstr "Tất cả phạm vi phải có cùng danh mục."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -778,7 +778,7 @@ msgid ""
 "An array or range containing the income or payments associated with the "
 "investment."
 msgstr ""
-"Một mảng hoặc dải ô chứa thu nhập hoặc các khoản thanh toán liên quan đến "
+"Một mảng hoặc phạm vi chứa thu nhập hoặc các khoản thanh toán liên quan đến "
 "khoản đầu tư."
 
 #. module: spreadsheet
@@ -789,8 +789,8 @@ msgid ""
 "An array or range containing zero or more criteria to filter the database "
 "values by before operating."
 msgstr ""
-"Một mảng hoặc dải ô chứa 0 hoặc nhiều tiêu chí để lọc các giá trị cơ sở dữ "
-"liệu trước khi vận hành."
+"Một mảng hoặc phạm vi chứa 0 hoặc nhiều tiêu chí để lọc các giá trị cơ sở dữ"
+" liệu trước khi vận hành."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -910,7 +910,8 @@ msgstr ""
 msgid ""
 "An range containing the income or payments associated with the investment."
 msgstr ""
-"Một vùng chứa thu nhập hoặc các khoản thanh toán liên quan đến khoản đầu tư."
+"Một phạm vi chứa thu nhập hoặc các khoản thanh toán liên quan đến khoản đầu "
+"tư."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -920,8 +921,8 @@ msgid ""
 "An range with an equal number of rows and columns representing a matrix "
 "whose determinant will be calculated."
 msgstr ""
-"Một dải ô có số hàng và số cột bằng nhau biểu thị một ma trận có định thức "
-"sẽ được tính toán."
+"Một phạm vi có số hàng và số cột bằng nhau biểu thị một ma trận có định thức"
+" sẽ được tính toán."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -931,8 +932,8 @@ msgid ""
 "An range with an equal number of rows and columns representing a matrix "
 "whose multiplicative inverse will be calculated."
 msgstr ""
-"Một dải ô có số hàng và số cột bằng nhau biểu thị một ma trận có số nghịch "
-"đảo sẽ được tính toán."
+"Một phạm vi có số hàng và số cột bằng nhau biểu thị một ma trận có số nghịch"
+" đảo sẽ được tính toán."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -941,7 +942,7 @@ msgstr ""
 #, python-format
 msgid ""
 "An range with dates corresponding to the cash flows in cashflow_amounts."
-msgstr "Một dải ô có ngày tương ứng với dòng tiền trong cashflow_amounts."
+msgstr "Một phạm vi có ngày tương ứng với dòng tiền trong cashflow_amounts."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1057,7 +1058,7 @@ msgstr ""
 #, python-format
 msgid "Appends ranges horizontally and in sequence to return a larger array."
 msgstr ""
-"Nối các dải ô theo chiều ngang và theo thứ tự để trả về một mảng lớn hơn."
+"Nối các phạm vi theo chiều ngang và theo thứ tự để trả về một mảng lớn hơn."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1065,7 +1066,7 @@ msgstr ""
 #, python-format
 msgid "Appends ranges vertically and in sequence to return a larger array."
 msgstr ""
-"Nối các dải ô theo chiều dọc và theo thứ tự để trả về một mảng lớn hơn."
+"Nối các phạm vi theo chiều dọc và theo thứ tự để trả về một mảng lớn hơn."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1094,7 +1095,7 @@ msgstr "Áp dụng định dạng số lớn"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 #, python-format
 msgid "Apply to range"
-msgstr "Áp dụng cho dải ô"
+msgstr "Áp dụng cho phạm vi"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1124,7 +1125,7 @@ msgstr "Bỏ qua đối số phải nằm trong khoảng từ 0 đến 3"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Argument must be a reference to a cell or range."
-msgstr "Đối số phải là một tham chiếu đến một ô hoặc dải ô."
+msgstr "Đối số phải là một tham chiếu đến một ô hoặc phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1132,7 +1133,7 @@ msgstr "Đối số phải là một tham chiếu đến một ô hoặc dải �
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Argument range must be a single row or column."
-msgstr "Dải ô đối số phải là một hàng hoặc một cột."
+msgstr "Phạm vi đối số phải là một hàng hoặc một cột."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1146,7 +1147,7 @@ msgstr "Mảng"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Array or range containing the dataset to consider."
-msgstr "Mảng hoặc dải ô chứa tập dữ liệu cần xem xét."
+msgstr "Mảng hoặc phạm vi chứa tập dữ liệu cần xem xét."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1362,7 +1363,7 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Calculates the frequency distribution of a range."
-msgstr "Tính toán phân bổ tần số của một dải ô."
+msgstr "Tính toán phân bổ tần số của một phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -1424,7 +1425,7 @@ msgid ""
 "Calculates the sum of the products of corresponding entries in equal-sized "
 "ranges."
 msgstr ""
-"Tính tổng các tích của các mục tương ứng trong dải ô có kích thước bằng "
+"Tính tổng các tích của các mục tương ứng trong phạm vi có kích thước bằng "
 "nhau."
 
 #. module: spreadsheet
@@ -2082,7 +2083,7 @@ msgstr "Đếm các giá trị và văn bản từ một phạm vi giống như 
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Counts values from a table-like range."
-msgstr "Đếm các giá trị từ một dải ô dạng bảng."
+msgstr "Đếm các giá trị từ một phạm vi dạng bảng."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2104,14 +2105,14 @@ msgstr "Tạo một siêu liên kết trong một ô."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Creates a new array from the selected columns in the existing range."
-msgstr "Tạo một mảng mới từ các cột đã chọn trong dải ô hiện có."
+msgstr "Tạo một mảng mới từ các cột đã chọn trong phạm vi hiện có."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Creates a new array from the selected rows in the existing range."
-msgstr "Tạo một mảng mới từ các hàng đã chọn trong dải ô hiện có."
+msgstr "Tạo một mảng mới từ các hàng đã chọn trong phạm vi hiện có."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2298,7 +2299,7 @@ msgstr "Dữ liệu không khả dụng"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 #, python-format
 msgid "Data range"
-msgstr "Vùng dữ liệu"
+msgstr "Phạm vi dữ liệu"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -2885,7 +2886,7 @@ msgstr "Mở rộng hoặc đệm một mảng theo danh mục hàng và cột x
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "FILTER has mismatched sizes on the range and conditions."
-msgstr "LỌC có kích thước không khớp về dải ô và điều kiện."
+msgstr "LỌC có kích thước không khớp về phạm vi và điều kiện."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3057,7 +3058,7 @@ msgstr "FixedNumber"
 #, python-format
 msgid "Flattens all the values from one or more ranges into a single column."
 msgstr ""
-"Làm phẳng tất cả giá trị từ một hoặc nhiều dải ô thành một cột duy nhất."
+"Làm phẳng tất cả giá trị từ một hoặc nhiều phạm vi thành một cột duy nhất."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3303,7 +3304,7 @@ msgid ""
 "or a single cell reference, not a range."
 msgstr ""
 "Hàm [[FUNCTION_NAME]] cần tham số '%s' là các giá trị đơn hoặc tham chiếu ô "
-"đơn, không phải dải ô."
+"đơn, không phải phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3311,7 +3312,7 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Function [[FUNCTION_NAME]] parameter 2 value (%s) is out of range."
-msgstr "Giá trị tham số 2 của hàm [[FUNCTION_NAME]] (%s) nằm ngoài dải ô."
+msgstr "Giá trị tham số 2 của hàm [[FUNCTION_NAME]] (%s) nằm ngoài phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3319,7 +3320,7 @@ msgstr "Giá trị tham số 2 của hàm [[FUNCTION_NAME]] (%s) nằm ngoài d�
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Function [[FUNCTION_NAME]] parameter 2 value is out of range."
-msgstr "Giá trị tham số 2 của hàm [[FUNCTION_NAME]] nằm ngoài dải ô."
+msgstr "Giá trị tham số 2 của hàm [[FUNCTION_NAME]] nằm ngoài phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3722,9 +3723,9 @@ msgid ""
 "specified range) is sorted, in which case the closest match for search_key "
 "will be returned."
 msgstr ""
-"Cho biết liệu cột cần tìm kiếm (cột đầu tiên của dải ô xác định) có được sắp"
-" xếp hay không, trong trường hợp đó kết quả khớp nhất với search_key sẽ được"
-" trả về."
+"Cho biết liệu cột cần tìm kiếm (cột đầu tiên của phạm vi xác định) có được "
+"sắp xếp hay không, trong trường hợp đó kết quả khớp nhất với search_key sẽ "
+"được trả về."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -3735,8 +3736,8 @@ msgid ""
 "range) is sorted, in which case the closest match for search_key will be "
 "returned."
 msgstr ""
-"Cho biết liệu hàng cần tìm kiếm (hàng đầu tiên của dải ô xác định) có được "
-"sắp xếp hay không, trong trường hợp đó kết quả khớp nhất với search_key sẽ "
+"Cho biết liệu hàng cần tìm kiếm (hàng đầu tiên của phạm vi xác định) có được"
+" sắp xếp hay không, trong trường hợp đó kết quả khớp nhất với search_key sẽ "
 "được trả về."
 
 #. module: spreadsheet
@@ -4581,7 +4582,7 @@ msgstr "Giá trị số tối đa trong tập dữ liệu."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Maximum of values from a table-like range."
-msgstr "Giá trị tối đa từ một dải ô dạng bảng."
+msgstr "Giá trị tối đa từ một phạm vi dạng bảng."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4693,14 +4694,14 @@ msgstr "Giá trị số tối thiểu trong tập dữ liệu."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Minimum of values from a table-like range."
-msgstr "Giá trị tối thiểu từ một dải ô dạng bảng."
+msgstr "Giá trị tối thiểu từ một phạm vi dạng bảng."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Minimum range limit must be smaller than maximum range limit"
-msgstr "Giới hạn dải ô tối thiểu phải nhỏ hơn giới hạn dải ô tối đa"
+msgstr "Giới hạn phạm vi tối thiểu phải nhỏ hơn giới hạn phạm vi tối đa"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4815,7 +4816,7 @@ msgstr "Thêm định dạng"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "More numbers or ranges to calculate for the product."
-msgstr "Thêm số hoặc dải ô để tính toán cho sản phẩm."
+msgstr "Thêm số hoặc phạm vi để tính toán cho sản phẩm."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5056,7 +5057,7 @@ msgstr "Số"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number of columns in a specified array or range."
-msgstr "Số lượng cột trong một mảng hoặc dải ô xác định."
+msgstr "Số lượng cột trong một mảng hoặc phạm vi xác định."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5106,7 +5107,7 @@ msgstr "Số kỳ để một khoản đầu tư đạt đến một giá trị.
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number of rows in a specified array or range."
-msgstr "Số hàng trong một mảng hoặc dải ô xác định."
+msgstr "Số hàng trong một mảng hoặc phạm vi xác định."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5341,7 +5342,7 @@ msgstr "Vị trí trong pivot"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Position of item in range that matches value."
-msgstr "Vị trí của mục trong dải ô khớp với giá trị."
+msgstr "Vị trí của mục trong phạm vi khớp với giá trị."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5426,7 +5427,7 @@ msgstr "Tích của hai số"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Product of values from a table-like range."
-msgstr "Tích của các giá trị từ một dải ô dạng bảng."
+msgstr "Tích của các giá trị từ một phạm vi dạng bảng."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5658,7 +5659,7 @@ msgid ""
 "Returns a filtered version of the source range, returning only rows or "
 "columns that meet the specified conditions."
 msgstr ""
-"Trả về phiên bản đã lọc của dải ô nguồn, chỉ trả về các hàng hoặc cột đáp "
+"Trả về phiên bản đã lọc của phạm vi nguồn, chỉ trả về các hàng hoặc cột đáp "
 "ứng những điều kiện xác định."
 
 #. module: spreadsheet
@@ -5741,7 +5742,8 @@ msgstr "Trả về định thức ma trận của ma trận vuông."
 msgid ""
 "Returns the maximum value in a range of cells, filtered by a set of "
 "criteria."
-msgstr "Trả về giá trị tối đa trong một dải ô, được lọc theo một bộ tiêu chí."
+msgstr ""
+"Trả về giá trị tối đa trong một phạm vi, được lọc theo một bộ tiêu chí."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5751,7 +5753,7 @@ msgid ""
 "Returns the minimum value in a range of cells, filtered by a set of "
 "criteria."
 msgstr ""
-"Trả về giá trị tối thiểu trong một dải ô, được lọc theo một bộ tiêu chí."
+"Trả về giá trị tối thiểu trong một phạm vi, được lọc theo một bộ tiêu chí."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5913,7 +5915,8 @@ msgstr "Tìm kiếm"
 msgid ""
 "Search a range for a match and return the corresponding item from a second "
 "range."
-msgstr "Tìm kiếm một dải ô phù hợp và trả về mục tương ứng từ dải ô thứ hai."
+msgstr ""
+"Tìm kiếm một phạm vi phù hợp và trả về mục tương ứng từ phạm vi thứ hai."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6140,7 +6143,7 @@ msgstr "Màu đơn sắc"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Single value from a table-like range."
-msgstr "Giá trị đơn nhất từ một dải ô dạng bảng."
+msgstr "Giá trị đơn nhất từ một phạm vi dạng bảng."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6186,7 +6189,7 @@ msgstr "Sắp xếp giảm dần (Z ⟶ A)"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Sort range"
-msgstr "Sắp xếp dải ô"
+msgstr "Sắp xếp phạm vi"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6397,14 +6400,14 @@ msgstr "Tổng của hai số."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Sum of values from a table-like range."
-msgstr "Tổng của các giá trị từ một dải ô dạng bảng."
+msgstr "Tổng của các giá trị từ một phạm vi dạng bảng."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Sums a range depending on multiple criteria."
-msgstr "Tính tổng một dải ô phụ thuộc vào nhiều tiêu chí."
+msgstr "Tính tổng một phạm vi phụ thuộc vào nhiều tiêu chí."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6716,7 +6719,7 @@ msgstr "Các đối số matrix1 và matrix2 phải là ma trận số."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The array of ranges containing the values to be counted."
-msgstr "Mảng các dải ô chứa giá trị cần đếm."
+msgstr "Mảng các phạm vi chứa giá trị cần đếm."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6748,7 +6751,7 @@ msgid ""
 "The array or range containing the data to consider, structured in such a way"
 " that the first row contains the labels for each column's values."
 msgstr ""
-"Mảng hoặc dải ô chứa dữ liệu cần xem xét, được cấu trúc sao cho hàng đầu "
+"Mảng hoặc phạm vi chứa dữ liệu cần xem xét, được cấu trúc sao cho hàng đầu "
 "tiên chứa nhãn của các giá trị trong mỗi cột."
 
 #. module: spreadsheet
@@ -6762,7 +6765,7 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The array or range containing the dataset to consider."
-msgstr "Mảng hoặc dải ô chứa tập dữ liệu cần xem xét."
+msgstr "Mảng hoặc phạm vi chứa tập dữ liệu cần xem xét."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6772,7 +6775,7 @@ msgid ""
 "The array or range of values that will be reduced by corresponding entries "
 "in array_y, squared, and added together."
 msgstr ""
-"Mảng hoặc dải ô giá trị sẽ bị trừ đi bởi các mục tương ứng trong array_y, "
+"Mảng hoặc phạm vi giá trị sẽ bị trừ đi bởi các mục tương ứng trong array_y, "
 "được bình phương rồi được cộng lại với nhau."
 
 #. module: spreadsheet
@@ -6783,8 +6786,8 @@ msgid ""
 "The array or range of values that will be subtracted from corresponding "
 "entries in array_x, the result squared, and all such results added together."
 msgstr ""
-"Mảng hoặc dải ô giá trị sẽ bị trừ khỏi các mục tương ứng trong array_y, kết "
-"quả được bình phương, rồi các kết quả đó được cộng lại với nhau."
+"Mảng hoặc phạm vi giá trị sẽ bị trừ khỏi các mục tương ứng trong array_y, "
+"kết quả được bình phương, rồi các kết quả đó được cộng lại với nhau."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6794,7 +6797,7 @@ msgid ""
 "The array or range of values whose squares will be added to the squares of "
 "corresponding entries in array_x and added together."
 msgstr ""
-"Mảng hoặc dải ô giá trị mà các bình phương của nó sẽ được cộng vào bình "
+"Mảng hoặc phạm vi giá trị mà các bình phương của nó sẽ được cộng vào bình "
 "phương của các mục tương ứng trong array_x rồi được cộng lại với nhau."
 
 #. module: spreadsheet
@@ -6805,7 +6808,7 @@ msgid ""
 "The array or range of values whose squares will be added to the squares of "
 "corresponding entries in array_y and added together."
 msgstr ""
-"Mảng hoặc dải ô giá trị mà các bình phương của nó sẽ được cộng vào bình "
+"Mảng hoặc phạm vi giá trị mà các bình phương của nó sẽ được cộng vào bình "
 "phương của các mục tương ứng trong array_y rồi được cộng lại với nhau."
 
 #. module: spreadsheet
@@ -6816,7 +6819,7 @@ msgid ""
 "The array or range of values whose squares will be reduced by the squares of"
 " corresponding entries in array_y and added together."
 msgstr ""
-"Mảng hoặc dải ô giá trị mà các bình phương của nó sẽ bị trừ đi bởi bình "
+"Mảng hoặc phạm vi giá trị mà các bình phương của nó sẽ bị trừ đi bởi bình "
 "phương của các mục tương ứng trong array_y rồi được cộng lại với nhau."
 
 #. module: spreadsheet
@@ -6827,7 +6830,7 @@ msgid ""
 "The array or range of values whose squares will be subtracted from the "
 "squares of corresponding entries in array_x and added together."
 msgstr ""
-"Mảng hoặc dải ô giá trị mà các bình phương của nó sẽ bị trừ đi bởi bình "
+"Mảng hoặc phạm vi giá trị mà các bình phương của nó sẽ bị trừ đi bởi bình "
 "phương của các mục tương ứng trong array_x rồi được cộng lại với nhau."
 
 #. module: spreadsheet
@@ -6886,7 +6889,7 @@ msgstr "Giá trị đường cơ sở không hợp lệ."
 msgid ""
 "The cashflow_amounts and cashflow_dates ranges must have the same "
 "dimensions."
-msgstr "Dải ô cashflow_amounts và cashflow_dates phải có cùng danh mục."
+msgstr "Phạm vi cashflow_amounts và cashflow_dates phải có cùng danh mục."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6961,8 +6964,8 @@ msgid ""
 "The column index of the value to be returned, where the first column in "
 "range is numbered 1."
 msgstr ""
-"Chỉ mục cột của giá trị được trả về, trong đó cột đầu tiên trong dải ô được "
-"đánh số 1."
+"Chỉ mục cột của giá trị được trả về, trong đó cột đầu tiên trong phạm vi "
+"được đánh số 1."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7042,7 +7045,7 @@ msgstr "Hiệp phương sai của một tập dữ liệu."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The criteria range contains %s row, it must be at least 2 rows."
-msgstr "Dải ô tiêu chí chứa hàng %s, dải ô này phải có ít nhất 2 hàng. "
+msgstr "Phạm vi tiêu chí chứa hàng %s, phạm vi này phải có ít nhất 2 hàng. "
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7577,14 +7580,14 @@ msgstr "Số nhân đầu tiên."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first number or range to add together."
-msgstr "Số hoặc dải ô đầu tiên cần cộng lại với nhau."
+msgstr "Số hoặc phạm vi đầu tiên cần cộng lại với nhau."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first number or range to calculate for the product."
-msgstr "Số hoặc dải ô đầu tiên để tính tích."
+msgstr "Số hoặc phạm vi đầu tiên để tính tích."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7599,14 +7602,14 @@ msgstr "Số đầu tiên cần so sánh."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first range to be appended."
-msgstr "Dải ô đầu tiên được thêm vào."
+msgstr "Phạm vi đầu tiên được thêm vào."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first range to flatten."
-msgstr "Dải ô đầu tiên cần làm phẳng."
+msgstr "Phạm vi đầu tiên cần làm phẳng."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7616,8 +7619,8 @@ msgid ""
 "The first range whose entries will be multiplied with corresponding entries "
 "in the other ranges."
 msgstr ""
-"Dải ô đầu tiên có các mục nhập sẽ được nhân với các mục nhập tương ứng trong"
-" các dải ô khác."
+"Phạm vi đầu tiên có các mục nhập sẽ được nhân với các mục nhập tương ứng "
+"trong các phạm vi khác."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7645,7 +7648,7 @@ msgstr "Giá trị đầu tiên phải là số"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first value or range in which to count the number of blanks."
-msgstr "Giá trị hoặc dải ô đầu tiên để đếm số lượng khoảng trống."
+msgstr "Giá trị hoặc phạm vi đầu tiên để đếm số lượng khoảng trống."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7657,7 +7660,7 @@ msgstr "Giá trị hoặc dải ô đầu tiên để đếm số lượng kho�
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first value or range of the population."
-msgstr "Giá trị hoặc dải ô đầu tiên của tập hợp."
+msgstr "Giá trị hoặc phạm vi đầu tiên của tập hợp."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7670,14 +7673,14 @@ msgstr "Giá trị hoặc dải ô đầu tiên của tập hợp."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first value or range of the sample."
-msgstr "Giá trị hoặc dải ô đầu tiên của mẫu."
+msgstr "Giá trị hoặc phạm vi đầu tiên của mẫu."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first value or range to consider for uniqueness."
-msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét về tính duy nhất."
+msgstr "Giá trị hoặc phạm vi đầu tiên cần xem xét về tính duy nhất."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7686,7 +7689,8 @@ msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét về tính duy nh
 #, python-format
 msgid ""
 "The first value or range to consider when calculating the average value."
-msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét khi tính giá trị trung bình."
+msgstr ""
+"Giá trị hoặc phạm vi đầu tiên cần xem xét khi tính giá trị trung bình."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7695,7 +7699,7 @@ msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét khi tính giá tr
 #, python-format
 msgid ""
 "The first value or range to consider when calculating the maximum value."
-msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét khi tính giá trị tối đa."
+msgstr "Giá trị hoặc phạm vi đầu tiên cần xem xét khi tính giá trị tối đa."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7703,7 +7707,7 @@ msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét khi tính giá tr
 #, python-format
 msgid ""
 "The first value or range to consider when calculating the median value."
-msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét khi tính giá trị ở giữa."
+msgstr "Giá trị hoặc phạm vi đầu tiên cần xem xét khi tính giá trị ở giữa."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7712,7 +7716,7 @@ msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét khi tính giá tr
 #, python-format
 msgid ""
 "The first value or range to consider when calculating the minimum value."
-msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét khi tính giá trị tối thiểu."
+msgstr "Giá trị hoặc phạm vi đầu tiên cần xem xét khi tính giá trị tối thiểu."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7720,7 +7724,7 @@ msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét khi tính giá tr
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first value or range to consider when counting."
-msgstr "Giá trị hoặc dải ô đầu tiên cần xem xét khi đếm."
+msgstr "Giá trị hoặc phạm vi đầu tiên cần xem xét khi đếm."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -7883,7 +7887,7 @@ msgstr "Giá trị cao (%s) phải lớn hơn hoặc hoặc bằng giá trị th
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The high end of the random range."
-msgstr "Mức cao nhất của dải ô ngẫu nhiên."
+msgstr "Mức cao nhất của phạm vi ngẫu nhiên."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8062,7 +8066,7 @@ msgstr "Logarit của một số, cơ số e (số euler)."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The low end of the random range."
-msgstr "Mức thấp nhất của dải ô ngẫu nhiên."
+msgstr "Mức thấp nhất của phạm vi ngẫu nhiên."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8166,7 +8170,7 @@ msgstr "Số tối đa bạn muốn trả về."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The maximum range limit value must be a number"
-msgstr "Giá trị giới hạn dải ô tối đa phải là một số"
+msgstr "Giá trị giới hạn phạm vi tối đa phải là một số"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8205,7 +8209,7 @@ msgstr "Số tối thiểu bạn muốn trả về."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The minimum range limit value must be a number"
-msgstr "Giá trị giới hạn dải ô tối thiểu phải là một số"
+msgstr "Giá trị giới hạn phạm vi tối thiểu phải là một số"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8690,8 +8694,8 @@ msgid ""
 "The other range whose entries will be multiplied with corresponding entries "
 "in the other ranges."
 msgstr ""
-"Dải ô khác có các mục nhập sẽ được nhân với các mục nhập tương ứng trong "
-"những dải ô khác."
+"Phạm vi khác có các mục nhập sẽ được nhân với các mục nhập tương ứng trong "
+"những phạm vi khác."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8746,7 +8750,7 @@ msgstr "Mẫu hoặc bản kiểm thử cần áp dụng cho criteria_range2."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The pattern or test to apply to range."
-msgstr "Mẫu hoặc bản kiểm thử cần áp dụng cho dải ô."
+msgstr "Mẫu hoặc bản kiểm thử cần áp dụng cho phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8911,14 +8915,14 @@ msgstr "Dải ô chứa tập dữ liệu cần xem xét."
 msgid ""
 "The range containing the return value. Should have the same dimensions as "
 "lookup_range."
-msgstr "Dải ô chứa giá trị trả về. Phải có cùng danh mục với lookup_range."
+msgstr "Phạm vi chứa giá trị trả về. Phải có cùng danh mục với lookup_range."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range containing the set of classes."
-msgstr "Dải ô chứa tập hợp các lớp."
+msgstr "Phạm vi chứa tập hợp các lớp."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8930,9 +8934,9 @@ msgid ""
 "only a single row or column and should not be used if using the "
 "search_result_array method."
 msgstr ""
-"Dải ô mà từ đó trả về kết quả. Giá trị được trả về tương ứng với vị trí tìm "
-"thấy search_key trong search_range. Dải ô này chỉ được phép có một hàng hoặc"
-" cột duy nhất và không được sử dụng nếu dùng phương thức "
+"Phạm vi mà từ đó trả về kết quả. Giá trị được trả về tương ứng với vị trí "
+"tìm thấy search_key trong search_range. Phạm vi này chỉ được phép có một "
+"hàng hoặc cột duy nhất và không được sử dụng nếu dùng phương thức "
 "search_result_array."
 
 #. module: spreadsheet
@@ -8940,28 +8944,28 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range is invalid"
-msgstr "Dải ô không hợp lệ"
+msgstr "Phạm vi không hợp lệ"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range must be a single row or a single column."
-msgstr "Dải ô phải là một hàng hoặc một cột."
+msgstr "Phạm vi phải là một hàng hoặc một cột."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range of cells from which the maximum will be determined."
-msgstr "Dải ô mà từ đó giá trị tối đa sẽ được xác định."
+msgstr "Phạm vi mà từ đó giá trị tối đa sẽ được xác định."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range of cells from which the minimum will be determined."
-msgstr "Dải ô mà từ đó giá trị tối thiểu sẽ được xác định."
+msgstr "Phạm vi mà từ đó giá trị tối thiểu sẽ được xác định."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8969,7 +8973,7 @@ msgstr "Dải ô mà từ đó giá trị tối thiểu sẽ được xác đị
 #, python-format
 msgid ""
 "The range of cells from which the number of unique values will be counted."
-msgstr "Dải ô mà từ đó số giá trị duy nhất sẽ được đếm."
+msgstr "Phạm vi mà từ đó số giá trị duy nhất sẽ được đếm."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -8985,7 +8989,7 @@ msgstr "Dải ô mà từ đó các giá trị được trả về."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range of cells over which to evaluate criterion1."
-msgstr "Dải ô để đánh giá criterion1."
+msgstr "Phạm vi để đánh giá criterion1."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9005,7 +9009,7 @@ msgstr "Dải ô để đánh giá criterion1."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range representing the array or matrix of dependent data."
-msgstr "Dải ô đại diện cho mảng hoặc ma trận dữ liệu phụ thuộc."
+msgstr "Phạm vi đại diện cho mảng hoặc ma trận dữ liệu phụ thuộc."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9025,7 +9029,7 @@ msgstr "Dải ô đại diện cho mảng hoặc ma trận dữ liệu phụ thu
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range representing the array or matrix of independent data."
-msgstr "Dải ô đại diện cho mảng hoặc ma trận dữ liệu độc lập."
+msgstr "Phạm vi đại diện cho mảng hoặc ma trận dữ liệu độc lập."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9046,14 +9050,14 @@ msgstr "Dải ô đại diện cho mảng hoặc ma trận dữ liệu dự đo�
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range that is tested against criterion."
-msgstr "Dải ô được kiểm thử theo tiêu chí."
+msgstr "Phạm vi được kiểm thử theo tiêu chí."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range to average."
-msgstr "Dải ô cần tính trung bình."
+msgstr "Phạm vi cần tính trung bình."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9063,29 +9067,29 @@ msgid ""
 "The range to average. If not included, criteria_range is used for the "
 "average instead."
 msgstr ""
-"Dải ô cần tính trung bình. Nếu không bao gồm, thay vào đó, criteria_range sẽ"
-" được sử dụng cho giá trị trung bình."
+"Phạm vi cần tính trung bình. Nếu không bao gồm, thay vào đó, criteria_range "
+"sẽ được sử dụng cho giá trị trung bình."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range to be summed, if different from range."
-msgstr "Dải ô cần tính tổng, nếu khác với dải ô."
+msgstr "Phạm vi cần tính tổng, nếu khác với phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range to be transposed."
-msgstr "Dải ô cần chuyển đổi."
+msgstr "Phạm vi cần chuyển đổi."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range to check against criterion."
-msgstr "Dải ô cần kiểm tra theo tiêu chí."
+msgstr "Phạm vi cần kiểm tra theo tiêu chí."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9094,7 +9098,7 @@ msgstr "Dải ô cần kiểm tra theo tiêu chí."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range to check against criterion1."
-msgstr "Dải ô cần kiểm tra theo criterion1."
+msgstr "Phạm vi cần kiểm tra theo criterion1."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9113,8 +9117,8 @@ msgid ""
 "The range to consider for the search. The first column in the range is "
 "searched for the key specified in search_key."
 msgstr ""
-"Dải ô cần cân nhắc cho tìm kiếm. Cột đầu tiên trong dải ô tìm kiếm khóa xác "
-"định trong search_key."
+"Phạm vi cần cân nhắc cho tìm kiếm. Cột đầu tiên trong phạm vi tìm kiếm khóa "
+"xác định trong search_key."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9124,22 +9128,22 @@ msgid ""
 "The range to consider for the search. The first row in the range is searched"
 " for the key specified in search_key."
 msgstr ""
-"Dải ô cần cân nhắc cho tìm kiếm. Hàng đầu tiên trong dải ô tìm kiếm khóa xác"
-" định trong search_key."
+"Phạm vi cần cân nhắc cho tìm kiếm. Hàng đầu tiên trong phạm vi tìm kiếm khóa"
+" xác định trong search_key."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range to constrain."
-msgstr "Dải ô cần giới hạn."
+msgstr "Phạm vi cần giới hạn."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range to sum."
-msgstr "Dải ô cần tính tổng."
+msgstr "Phạm vi cần tính tổng."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9147,28 +9151,28 @@ msgstr "Dải ô cần tính tổng."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range to wrap."
-msgstr "Dải ô cần gói."
+msgstr "Phạm vi cần gói."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range which is tested against criterion."
-msgstr "Dải ô được kiểm thử theo tiêu chí."
+msgstr "Phạm vi được kiểm thử theo tiêu chí."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range whose column count will be returned."
-msgstr "Dải ô có số cột sẽ được trả về."
+msgstr "Phạm vi có số cột sẽ được trả về."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range whose row count will be returned."
-msgstr "Dải ô có số hàng sẽ được trả về."
+msgstr "Phạm vi có số hàng sẽ được trả về."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9268,7 +9272,7 @@ msgid ""
 "The row index of the value to be returned, where the first row in range is "
 "numbered 1."
 msgstr ""
-"Chỉ mục hàng của giá trị được trả về, trong đó hàng đầu tiên trong dải ô "
+"Chỉ mục hàng của giá trị được trả về, trong đó hàng đầu tiên trong phạm vi "
 "được đánh số 1."
 
 #. module: spreadsheet
@@ -9347,9 +9351,9 @@ msgid ""
 "to search_key when range is sorted in descending order."
 msgstr ""
 "Phương pháp tìm kiếm. 1 (mặc định) tìm giá trị lớn nhất nhỏ hơn hoặc bằng "
-"search_key khi dải ô được sắp xếp theo thứ tự tăng dần. 0 tìm giá trị chính "
-"xác khi dải ô không được sắp xếp. -1 tìm giá trị nhỏ nhất lớn hơn hoặc bằng "
-"search_key khi dải ô được sắp xếp theo thứ tự giảm dần."
+"search_key khi phạm vi được sắp xếp theo thứ tự tăng dần. 0 tìm giá trị "
+"chính xác khi phạm vi không được sắp xếp. -1 tìm giá trị nhỏ nhất lớn hơn "
+"hoặc bằng search_key khi phạm vi được sắp xếp theo thứ tự giảm dần."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9654,7 +9658,7 @@ msgstr "Số trừ, hay số cần trừ khỏi value1."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The table_number (%s) is out of range."
-msgstr "table_number (%s) nằm ngoài dải ô."
+msgstr "table_number (%s) nằm ngoài phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -9765,7 +9769,7 @@ msgstr "time_string (%s) không thể được phân tích cú pháp theo ngày/
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The type (%s) is out of range."
-msgstr "Loại (%s) nằm ngoài dải ô."
+msgstr "Loại (%s) nằm ngoài phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10429,7 +10433,7 @@ msgstr "Giá trị có thứ hạng sẽ được xác định."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value with which to fill the extra cells in the range."
-msgstr "Giá trị để điền vào các ô bổ sung trong dải ô."
+msgstr "Giá trị để điền vào các ô bổ sung trong phạm vi."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10634,7 +10638,7 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 #, python-format
 msgid "This range is invalid"
-msgstr "Dải ô này không hợp lệ"
+msgstr "Phạm vi này không hợp lệ"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10703,21 +10707,21 @@ msgstr "Tổng"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Transforms a range of cells into a single column."
-msgstr "Chuyển một dải ô thành một cột duy nhất."
+msgstr "Chuyển một phạm vi thành một cột duy nhất."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Transforms a range of cells into a single row."
-msgstr "Chuyển một dải ô thành một hàng duy nhất."
+msgstr "Chuyển một phạm vi thành một hàng duy nhất."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Transposes the rows and columns of a range."
-msgstr "Chuyển các hàng và cột của một dải ô với nhau."
+msgstr "Chuyển các hàng và cột của một phạm vi với nhau."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -10860,7 +10864,7 @@ msgstr "Hiện hàng"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Unique rows in the provided source range."
-msgstr "Các hàng duy nhất trong dải ô nguồn đã cho."
+msgstr "Các hàng duy nhất trong phạm vi nguồn đã cho."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11114,7 +11118,7 @@ msgstr "Số dư giảm dần thay đổi. CẢNH BÁO: không hỗ trợ dấu 
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Variance of a population from a table-like range."
-msgstr "Phương sai của tập hợp từ một dải ô dạng bảng."
+msgstr "Phương sai của tập hợp từ một phạm vi dạng bảng."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11136,7 +11140,7 @@ msgstr "Phương sai của toàn bộ tập hợp."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Variance of population sample from table-like range."
-msgstr "Phương sai của mẫu tập hợp từ một dải ô dạng bảng."
+msgstr "Phương sai của mẫu tập hợp từ một phạm vi dạng bảng."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11536,7 +11540,7 @@ msgstr "Từ đầu năm đến nay"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "You can't create a filter over a range that contains a merge."
-msgstr "Bạn không thể tạo bộ lọc trên một dải ô có chứa ô gộp."
+msgstr "Bạn không thể tạo bộ lọc trên một phạm vi có chứa ô gộp."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11572,14 +11576,14 @@ msgstr "[[FUNCTION_NAME]] được đánh giá là nằm ngoài dải ô giới 
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] evaluates to an out of range column value %s."
-msgstr "[[FUNCTION_NAME]] xác định giá trị cột nằm ngoài dải ô %s."
+msgstr "[[FUNCTION_NAME]] xác định giá trị cột nằm ngoài phạm vi %s."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] evaluates to an out of range row value %s."
-msgstr "[[FUNCTION_NAME]] xác định giá trị hàng nằm ngoài dải ô %s."
+msgstr "[[FUNCTION_NAME]] xác định giá trị hàng nằm ngoài phạm vi %s."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11623,7 +11627,7 @@ msgstr "[[FUNCTION_NAME]] có danh mục không khớp cho đối số %s (%s vs
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] has mismatched range sizes."
-msgstr "[[FUNCTION_NAME]] có kích thước dải ô không khớp."
+msgstr "[[FUNCTION_NAME]] có kích thước phạm vi không khớp."
 
 #. module: spreadsheet
 #. odoo-javascript

@@ -187,7 +187,8 @@ msgstr "Kênh mới"
 #, python-format
 msgid "No Livechat Channel allows you to send a chat request for website %s."
 msgstr ""
-"Không có kênh Livechat nào cho phép bạn gửi yêu cầu chat cho website %s. "
+"Không có kênh Trò chuyện Trực tiếp nào cho phép bạn gửi yêu cầu chat cho "
+"website %s. "
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
@@ -329,7 +330,7 @@ msgstr "Phiên của khách"
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__discuss_channel_ids
 msgid "Visitor's livechat channels"
-msgstr "Kênh livechat của khách"
+msgstr "Kênh trò chuyện trực tiếp của khách"
 
 #. module: website_livechat
 #: model:ir.ui.menu,name:website_livechat.website_livechat_visitor_menu

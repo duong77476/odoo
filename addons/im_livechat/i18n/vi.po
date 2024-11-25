@@ -835,7 +835,7 @@ msgstr "Có tin nhắn"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_res_users__has_access_livechat
 msgid "Has access to Livechat"
-msgstr "Có quyền truy cập Livechat"
+msgstr "Có quyền truy cập Trò chuyện Trực tiếp"
 
 #. module: im_livechat
 #. odoo-python
@@ -977,7 +977,7 @@ msgstr "Is Forward Operator Child"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_res_users_settings__is_discuss_sidebar_category_livechat_open
 msgid "Is category livechat open"
-msgstr "Là danh mục livechat mở"
+msgstr "Là danh mục trò chuyện trực tiếp mở"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__livechat_active
@@ -1119,12 +1119,12 @@ msgstr "Hội thoại Livechat"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.qunit_embed_suite
 msgid "Livechat External Tests"
-msgstr "Kiểm thử bên ngoài livechat"
+msgstr "Kiểm thử bên ngoài trò chuyện trực tiếp"
 
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_res_users__livechat_lang_ids
 msgid "Livechat Languages"
-msgstr "Ngôn ngữ livechat"
+msgstr "Ngôn ngữ trò chuyện trực tiếp"
 
 #. module: im_livechat
 #: model:ir.model.constraint,message:im_livechat.constraint_discuss_channel_livechat_operator_id
@@ -1175,7 +1175,7 @@ msgstr "Cửa sổ Chat Trực tuyến"
 #. module: im_livechat
 #: model:ir.model.fields,field_description:im_livechat.field_res_users_settings__livechat_lang_ids
 msgid "Livechat languages"
-msgstr "Ngôn ngữ livechat"
+msgstr "Ngôn ngữ trò chuyện trực tiếp"
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__livechat_active
@@ -1727,7 +1727,7 @@ msgstr "Kiểu bước"
 #: code:addons/im_livechat/static/src/core/web/composer_patch.xml:0
 #, python-format
 msgid "Tab to next livechat"
-msgstr "Tab to next livechat"
+msgstr "Tab to next trò chuyện trực tiếp"
 
 #. module: im_livechat
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script_step__step_type__text
@@ -1813,7 +1813,7 @@ msgid ""
 "you to Live Chat sessions."
 msgstr ""
 "Ngoài ngôn ngữ chính của bạn, thì những ngôn ngữ này sẽ được sử dụng để phân"
-" công bạn tham gia các phiên Livechat."
+" công bạn tham gia các phiên Trò chuyện Trực tiếp."
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_report_operator_view_search

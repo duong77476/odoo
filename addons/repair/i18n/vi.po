@@ -798,7 +798,7 @@ msgstr "Truy vết"
 #. module: repair
 #: model:ir.model,name:repair.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
-msgstr "Dịch chuyển sản phẩm (Dòng dịch chuyển tồn kho)"
+msgstr "Điều chuyển sản phẩm (Dòng điều chuyển tồn kho)"
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__product_qty

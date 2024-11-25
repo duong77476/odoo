@@ -4,10 +4,10 @@
 # 
 # Translators:
 # Andy Yiu, 2024
-# Ryoko Tsuda <ryoko@quartile.co>, 2024
 # Martin Trigaux, 2024
 # Wil Odoo, 2024
 # Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2024
+# Ryoko Tsuda <ryoko@quartile.co>, 2024
 # Junko Augias, 2024
 # 
 msgid ""
@@ -18134,7 +18134,7 @@ msgstr "アドレス帳に仕入先を作成"
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.res_partner_industry_action
 msgid "Create an Industry"
-msgstr "業界を作成"
+msgstr "インダストリーを作成"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_studio
@@ -20872,8 +20872,8 @@ msgstr "連邦州は国に属し、連絡先の住所の一部となります。
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_fedex
-msgid "Fedex Shipping"
-msgstr "Fedex配送"
+msgid "Fedex Shipping (Legacy)"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_fr_fec
@@ -24895,7 +24895,7 @@ msgstr "帳票でのレイアウト"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm_iap_enrich
 msgid "Lead Enrichment"
-msgstr "リードに情報付与"
+msgstr "リードエンリッチメント"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm_iap_mine
@@ -29505,7 +29505,7 @@ msgstr "ポータル・ユーザだけが自分のアカウントを削除でき
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
 msgid "Oops, no!"
-msgstr "おっと、いや'"
+msgstr "おっと、違った！"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_profile__speedscope_url
@@ -33582,8 +33582,11 @@ msgstr "DHLを通して発送し、オンラインで追跡します"
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_fedex
-msgid "Send your shippings through Fedex and track them online"
-msgstr "Fedexを通して発送し、オンラインで追跡します"
+msgid ""
+"This is the legacy integration with FedEx that is no longer supported.Please"
+" install the new \"Fedex Shipping\" module and uninstall this one as soon as"
+" possible. This integration will stop working in 2024"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_delivery_ups_rest
@@ -35520,6 +35523,15 @@ msgstr "\"アプリスイッチャー\"アクションはホームアクショ�
 #, python-format
 msgid "The %s of a subsidiary must be the same as it's root company."
 msgstr "子会社の%sは元会社と同様である必要があります。 "
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_users.py:0
+#, python-format
+msgid ""
+"The action \"%s\" cannot be set as the home action because it requires a "
+"record to be selected beforehand."
+msgstr "アクション\"%s\" は、事前にレコードを選択する必要があるため、ホームアクションとして設定できません。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_country__code

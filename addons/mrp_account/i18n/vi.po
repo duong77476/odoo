@@ -280,7 +280,7 @@ msgstr "Hiện Giá trị"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_stock_move
 msgid "Stock Move"
-msgstr "Dịch chuyển Kho"
+msgstr "Dịch chuyển kho"
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_stock_rule

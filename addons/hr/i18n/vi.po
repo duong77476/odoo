@@ -3580,7 +3580,7 @@ msgstr "vd: John Doe"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "e.g. Sales Manager"
-msgstr "vd: Quản lý Bán hàng"
+msgstr "vd: Quản lý bán hàng"
 
 #. module: hr
 #. odoo-python
