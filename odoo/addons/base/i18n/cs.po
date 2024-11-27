@@ -11,8 +11,8 @@
 # Tomáš Píšek, 2024
 # Wil Odoo, 2024
 # Jiří Podhorecký <jirka.p@volny.cz>, 2024
-# Aleš Fiala <f.ales1@seznam.cz>, 2024
 # Tereza Mokrá, 2024
+# Aleš Fiala <f.ales1@seznam.cz>, 2024
 # 
 msgid ""
 msgstr ""
@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-26 12:42+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Tereza Mokrá, 2024\n"
+"Last-Translator: Aleš Fiala <f.ales1@seznam.cz>, 2024\n"
 "Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -8760,6 +8760,9 @@ msgid ""
 "This module brings the technical requirements for the new Germany regulation regarding the restaurant.\n"
 "Install this if you are using the Point of Sale app with restaurant in Germany.\n"
 msgstr ""
+"\n"
+"Tento modul přináší technické požadavky pro nové německé nařízení týkající se restaurace.\n"
+"Nainstalujte si to, pokud používáte aplikaci Prodejní místo s restaurací v Německu.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_dk_bookkeeping
@@ -11375,7 +11378,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_sepa_direct_debit
 msgid "A payment provider for enabling Sepa Direct Debit in the EU."
-msgstr ""
+msgstr "Poskytovatel plateb pro umožnění přímého inkasa Sepa v EU."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_demo
@@ -11804,7 +11807,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_br_reports
 msgid "Accounting reports for Brazil"
-msgstr ""
+msgstr "Účetní výkazy pro Brazílii"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_accountant_fleet
@@ -12720,7 +12723,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_account_accountant_batch_payment
 msgid "Allows using Reconciliation with the Batch Payment feature."
-msgstr ""
+msgstr "Umožňuje použití odsouhlasení s funkcí Hromadná platba."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_account_accountant_check_printing
@@ -12731,7 +12734,7 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_website_delivery_sendcloud
 #: model:ir.module.module,summary:base.module_website_sale_fedex
 msgid "Allows website customers to choose delivery pick-up points"
-msgstr ""
+msgstr "Umožňuje zákazníkům webu vybrat si místa vyzvednutí doručení"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_amazon
@@ -12960,18 +12963,18 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_appointment_crm
 msgid "Appointment Lead Generation"
-msgstr ""
+msgstr "Generování prospektů schůzek"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_appointment_sms
 msgid "Appointment SMS"
-msgstr ""
+msgstr "SMS schůzky"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_appointment_full
 #: model:ir.module.module,summary:base.module_test_appointment_full
 msgid "Appointment Testing Module"
-msgstr ""
+msgstr "Testovací modul schůzky"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_appointment
@@ -12991,7 +12994,7 @@ msgstr "Hodnocení - průzkum"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_appraisal_contract
 msgid "Appraisal Contract"
-msgstr ""
+msgstr "Smlouvy schůzky"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_appraisals
@@ -13190,7 +13193,7 @@ msgstr "Správa aktiv"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_asset_fleet
 msgid "Assets/Fleet bridge"
-msgstr ""
+msgstr "Assety/Most flotily"
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_category_form
@@ -13496,7 +13499,7 @@ msgstr "Avatax"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_br_avatax
 msgid "Avatax Brazil"
-msgstr ""
+msgstr "Avatax Brazílie"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_br_edi_sale_services
@@ -13516,7 +13519,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_avatax_sale
 msgid "Avatax for SO"
-msgstr ""
+msgstr "Avatax pro SO"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_avatax_geolocalize
@@ -13527,6 +13530,8 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_documents_fsm
 msgid "Avoid auto-enabling the documents feature on fsm projects"
 msgstr ""
+"Vyhnout se automatickému zapnutí funkce dokumentů v projektech práce v "
+"terénu."
 
 #. module: base
 #: model:res.country,name:base.az
@@ -13734,7 +13739,7 @@ msgstr "Čárový kód - Nomenklatura GS1"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_barcode_product_expiry
 msgid "Barcode Expiry"
-msgstr ""
+msgstr "Platnost čárového kódu"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_barcode_quality_mrp
@@ -13935,7 +13940,7 @@ msgstr "Belgická deklarace pro Intrastat"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_attendance
 msgid "Belgian Payroll - Attendance"
-msgstr ""
+msgstr "Belgické mzdy - Docházka"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_blackbox_be
@@ -13960,7 +13965,7 @@ msgstr "Belgie - účetní zprávy"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_reports_post_wizard
 msgid "Belgium - Accounting Reports (post wizard)"
-msgstr ""
+msgstr "Belgie - účetní zprávy (průvodce poštou)"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_reports_prorata
@@ -13970,7 +13975,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_reports_sms
 msgid "Belgium - Accounting Reports - SMS"
-msgstr ""
+msgstr "Belgie - účetní výkazy - SMS"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_disallowed_expenses
@@ -13990,7 +13995,7 @@ msgstr "Belgie - prohlášení Importní banky CODA "
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_soda
 msgid "Belgium - Import SODA files"
-msgstr ""
+msgstr "Belgie - Import souborů SODA"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll
@@ -14000,7 +14005,7 @@ msgstr "Belgie - mzdy"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_dimona
 msgid "Belgium - Payroll - Dimona"
-msgstr ""
+msgstr "Belgie - mzdy - Dimona"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_sd_worx
@@ -14134,7 +14139,7 @@ msgstr "Bolívie - účetnictví"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_bo_reports
 msgid "Bolivia - Accounting Reports"
-msgstr ""
+msgstr "Bolívie - Účetní výkazy"
 
 #. module: base
 #: model:res.country,name:base.bq
@@ -14215,7 +14220,7 @@ msgstr "Brazílie"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_br_reports
 msgid "Brazil - Accounting Reports"
-msgstr ""
+msgstr "Brazílie - Účetní výkazy"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_br_sales
@@ -18934,8 +18939,8 @@ msgstr "Federální státy patří k zemím a jsou součástí adres vašich kon
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_fedex
-msgid "Fedex Shipping"
-msgstr "Fedex Přeprava"
+msgid "Fedex Shipping (Legacy)"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_fr_fec
@@ -31847,8 +31852,11 @@ msgstr "Pošlete své zásilky prostřednictvím DHL a sledujte je online"
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_fedex
-msgid "Send your shippings through Fedex and track them online"
-msgstr "Zasílejte své zásilky prostřednictvím Fedexu a sledujte je online"
+msgid ""
+"This is the legacy integration with FedEx that is no longer supported.Please"
+" install the new \"Fedex Shipping\" module and uninstall this one as soon as"
+" possible. This integration will stop working in 2024"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_delivery_ups_rest
@@ -33809,6 +33817,15 @@ msgid "The %s of a subsidiary must be the same as it's root company."
 msgstr ""
 "%s podřízené společnosti musí být stejné/á jako je u její základní "
 "společnosti."
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_users.py:0
+#, python-format
+msgid ""
+"The action \"%s\" cannot be set as the home action because it requires a "
+"record to be selected beforehand."
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_country__code

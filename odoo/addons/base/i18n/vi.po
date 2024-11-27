@@ -6061,7 +6061,7 @@ msgstr ""
 "=======================================\n"
 "Phân hệ này cho phép sử dụng địa chỉ ở cấp độ dòng khi lấy thuế từ Avatax.\n"
 "\n"
-"Hạn chế hiện tại là một dòng đơn hàng duy nhất có nhiều hơn một lần dịch chuyển tồn kho (VD: 10 sản phẩm A, 2 được gửi từ kho số 1 và 8 từ kho số 2). Trong trường hợp này, đơn bán hàng nên được chia thành\n"
+"Hạn chế hiện tại là một dòng đơn hàng duy nhất có nhiều hơn một lần điều chuyển tồn kho (VD: 10 sản phẩm A, 2 được gửi từ kho số 1 và 8 từ kho số 2). Trong trường hợp này, đơn bán hàng nên được chia thành\n"
 "nhiều lần giao hàng.\n"
 
 #. module: base
@@ -6186,7 +6186,7 @@ msgstr ""
 "\n"
 "Quản lý Chi phí nhập kho\n"
 "=====================\n"
-"Phân hệ này cho phép bạn dễ dàng bổ sung chi phí trên các hoạt động lấy hàng và quyết định phân chia các chi phí này cho các lần dịch chuyển tồn kho tương ứng để hạch toán chúng khi định giá hàng tồn kho.\n"
+"Phân hệ này cho phép bạn dễ dàng bổ sung chi phí trên các hoạt động lấy hàng và quyết định phân chia các chi phí này cho các lần điều chuyển tồn kho tương ứng để hạch toán chúng khi định giá hàng tồn kho.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_board
@@ -11763,7 +11763,7 @@ msgid ""
 "======================================\n"
 msgstr ""
 "\n"
-"Xác thực dịch chuyển tồn kho cho Dịch vụ Hiện trường\n"
+"Xác thực điều chuyển tồn kho cho Dịch vụ Hiện trường\n"
 "======================================\n"
 
 #. module: base
@@ -11820,7 +11820,7 @@ msgstr ""
 "\n"
 "Phân hệ kế toán kho\n"
 "===================\n"
-"Phân hệ này tạo một liên kết giữa phân hệ 'Kho' và 'Kế toán' và cho phép bạn tạo bút toán để xác định giá trị các lần dịch chuyển tồn kho\n"
+"Phân hệ này tạo một liên kết giữa phân hệ 'Kho' và 'Kế toán' và cho phép bạn tạo bút toán để xác định giá trị các lần điều chuyển tồn kho\n"
 "\n"
 "Tính năng Chính\n"
 "---------------------------\n"
@@ -11869,7 +11869,7 @@ msgstr ""
 "\n"
 "Tính năng:\n"
 "\n"
-"     - Có một kênh livechat liên quan đến nhóm để trả lời các câu hỏi của khách hàng của bạn.\n"
+"     - Có một kênh trò chuyện trực tiếp liên quan đến nhóm để trả lời các câu hỏi của khách hàng của bạn.\n"
 "     - Dễ dàng tạo phiếu hỗ trợ mới bằng các lệnh trong kênh.\n"
 "\n"
 
@@ -21265,8 +21265,8 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_fedex
-msgid "Fedex Shipping"
-msgstr "Giao hàng Fedex"
+msgid "Fedex Shipping (Legacy)"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_fr_fec
@@ -33060,7 +33060,7 @@ msgstr "Tập tin báo cáo"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__report_footer
 msgid "Report Footer"
-msgstr "Lề dưới báo cáo"
+msgstr "Footer báo cáo"
 
 #. module: base
 #: model:ir.model,name:base.model_report_layout
@@ -34278,7 +34278,7 @@ msgstr "Gửi tin nhắn văn bản (SMS) để nhắc nhở sự kiện"
 #: model:ir.module.module,description:base.module_stock_sms
 #: model:ir.module.module,summary:base.module_stock_sms
 msgid "Send text messages when final stock move"
-msgstr "Gửi tin nhắn văn bản trong bước dịch chuyển tồn kho cuối cùng"
+msgstr "Gửi tin nhắn văn bản trong bước điều chuyển tồn kho cuối cùng"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_industry_fsm_sms
@@ -34316,8 +34316,11 @@ msgstr "Gửi hàng của bạn qua DHL và theo dõi chúng online"
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_fedex
-msgid "Send your shippings through Fedex and track them online"
-msgstr "Gửi hàng của bạn qua Fedex và theo dõi chúng trực tuyến"
+msgid ""
+"This is the legacy integration with FedEx that is no longer supported.Please"
+" install the new \"Fedex Shipping\" module and uninstall this one as soon as"
+" possible. This integration will stop working in 2024"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_delivery_ups_rest
@@ -36282,6 +36285,17 @@ msgstr "Không thể chọn tác vụ \"Trình Chuyển đổi Ứng dụng\" l�
 #, python-format
 msgid "The %s of a subsidiary must be the same as it's root company."
 msgstr "%s của công ty con phải giống công ty mẹ của nó."
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_users.py:0
+#, python-format
+msgid ""
+"The action \"%s\" cannot be set as the home action because it requires a "
+"record to be selected beforehand."
+msgstr ""
+"Không thể thiết lập tác vụ \"%s\" làm tác vụ trang chủ vì nó yêu cầu phải "
+"chọn trước một bản ghi."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_country__code
