@@ -7754,7 +7754,7 @@ msgstr "Mã bưu chính"
 #: code:addons/point_of_sale/static/src/xml/Screens/ProductScreen/Orderline.xml:0
 #, python-format
 msgid "at"
-msgstr "ở"
+msgstr "x"
 
 #. module: point_of_sale
 #. odoo-javascript
