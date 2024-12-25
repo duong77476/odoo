@@ -275,8 +275,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "- A default Customer Invoice / Vendor Bill date will be suggested."
-msgstr ""
-"- Ngày hóa đơn khách hàng / hóa đơn nhà cung cấp mặc định sẽ được đề xuất."
+msgstr "- Ngày hóa đơn bán hàng/hóa đơn mua hàng mặc định sẽ được đề xuất."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -4632,7 +4631,7 @@ msgstr "Tạo nhóm thuế mới"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_invoice_type
 msgid "Create a vendor bill"
-msgstr "Tạo hóa nhà cung cấp"
+msgstr "Tạo hóa đơn mua hàng"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_refund_type
@@ -5077,7 +5076,7 @@ msgstr "Hoá đơn khách hàng"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__quick_edit_mode__out_and_in_invoices
 msgid "Customer Invoices and Vendor Bills"
-msgstr "Hóa đơn khách hàng và hóa đơn nhà cung cấp"
+msgstr "Hóa đơn bán hàng và hóa đơn mua hàng"
 
 #. module: account
 #. odoo-python
@@ -9696,7 +9695,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_cash_rounding__rounding_method__half-up
 msgid "Nearest"
-msgstr ""
+msgstr "Gần nhất"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__needed_terms
@@ -9997,7 +9996,7 @@ msgid ""
 "directly from the vendor bill."
 msgstr ""
 "Lưu ý rằng cách dễ nhất để tạo giấy báo có của nhà cung cấp là thực hiện "
-"trực tiếp từ hóa đơn của nhà cung cấp."
+"trực tiếp từ hóa đơn mua hàng"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_fiscal_position__note
@@ -15710,7 +15709,7 @@ msgstr ""
 #: code:addons/account/wizard/account_tour_upload_bill.py:0
 #, python-format
 msgid "Try a sample vendor bill"
-msgstr "Hãy thử một hóa đơn mẫu của nhà cung cấp"
+msgstr "Hãy thử một hóa đơn mua hàng mẫu"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__account_type

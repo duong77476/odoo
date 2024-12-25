@@ -5043,7 +5043,7 @@ msgstr "Không có %s được chọn hoặc một phiếu xuất kho đã đư�
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation
 msgid "No Backorder"
-msgstr "Không có đơn hàng tồn đọng"
+msgstr "Không có đơn hàng tách kiện"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__res_partner__picking_warn__no-message
@@ -8245,7 +8245,7 @@ msgstr ""
 #: code:addons/stock/models/stock_picking.py:0
 #, python-format
 msgid "The backorder %s has been created."
-msgstr "Đơn hàng tồn đọng %s đã được tạo."
+msgstr "Đơn hàng tách kiện %s đã được tạo."
 
 #. module: stock
 #: model:ir.model.constraint,message:stock.constraint_stock_location_barcode_company_uniq
@@ -8565,9 +8565,9 @@ msgstr ""
 "Đây là số lượng sản phẩm theo quan điểm tồn kho. Đối với những dịch chuyển ở"
 " trạng thái 'hoàn tất', đây là số lượng sản phẩm đã thực sự được chuyển đi. "
 "Đối với các dịch chuyển khác, đây là số lượng sản phẩm dự kiến sẽ được "
-"chuyển đi. Việc giảm bớt số lượng này sẽ không tạo ra một đơn hàng tồn đọng."
-" Việc thay đổi số lượng trên các chuyển đã chỉ định sẽ ảnh hưởng đến việc dự"
-" trữ sản phẩm và cần được thực hiện cẩn thận."
+"chuyển đi. Việc giảm bớt số lượng này sẽ không tạo ra một đơn hàng tách "
+"kiện. Việc thay đổi số lượng trên các chuyển đã chỉ định sẽ ảnh hưởng đến "
+"việc dự trữ sản phẩm và cần được thực hiện cẩn thận."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location__child_internal_location_ids
@@ -8801,7 +8801,7 @@ msgstr "Áp dụng"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_backorder_confirmation_line__to_backorder
 msgid "To Backorder"
-msgstr "Để lập đơn hàng tồn đọng"
+msgstr "Để lập đơn hàng tách kiện"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.quant_search_view
@@ -8814,7 +8814,7 @@ msgstr "Cần kiểm đếm"
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "To Do"
-msgstr "Cần làm"
+msgstr "Việc cần làm"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_replenishment_info__qty_to_order
@@ -9727,8 +9727,8 @@ msgid ""
 " * Never: remaining products are cancelled"
 msgstr ""
 "Khi xác nhận một lệnh chuyển hàng:\n"
-"* Hỏi: người dùng được chọn nếu họ muốn tạo đơn hàng tồn đọng cho các sản phẩm còn lại\n"
-"* Luôn luôn: đơn hàng tồn đọng được tạo tự động cho các sản phẩm còn lại\n"
+"* Hỏi: người dùng được chọn nếu họ muốn tạo đơn hàng tách kiện cho các sản phẩm còn lại\n"
+"* Luôn luôn: đơn hàng tách kiện được tạo tự động cho các sản phẩm còn lại\n"
 "* Không bao giờ: các sản phẩm còn lại sẽ bị hủy"
 
 #. module: stock
