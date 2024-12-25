@@ -1435,7 +1435,7 @@ msgstr "Tạo hoá đơn"
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_invoice_salesteams
 msgid "Create a customer invoice"
-msgstr "Tạo một hóa đơn khách hàng"
+msgstr "Tạo một hóa đơn bán hàng"
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.product_template_action

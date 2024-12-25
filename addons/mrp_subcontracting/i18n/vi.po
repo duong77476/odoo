@@ -640,8 +640,8 @@ msgid ""
 "You can not set a Bill of Material with operations or by-product line as "
 "subcontracting."
 msgstr ""
-"Bạn không thể thiết lập định mức nguyên liệu với hoạt động hoặc dòng phụ "
-"phẩm được gia công."
+"Bạn không thể thiết lập danh mục vật tư với hoạt động hoặc dòng phụ phẩm "
+"được gia công."
 
 #. module: mrp_subcontracting
 #. odoo-python

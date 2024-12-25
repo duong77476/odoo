@@ -43,7 +43,7 @@ msgstr "Tiêu chí phân tích"
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__sale_avg_price
 msgid "Avg. Price in Customer Invoices."
-msgstr "Giá trung bình trong hoá đơn khách hàng"
+msgstr "Giá trung bình trên hoá đơn khách hàng"
 
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__purchase_avg_price
@@ -287,7 +287,7 @@ msgstr "Tổng số lượng trong hoá đơn khách hàng"
 #. module: product_margin
 #: model:ir.model.fields,help:product_margin.field_product_product__purchase_num_invoiced
 msgid "Sum of Quantity in Vendor Bills"
-msgstr "Tổng số lượng trên hoá đơn nhà cung cấp"
+msgstr "Tổng số lượng trên hóa đơn mua hàng"
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_margin__to_date

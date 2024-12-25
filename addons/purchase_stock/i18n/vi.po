@@ -325,7 +325,7 @@ msgstr "Tạo hóa đơn dự thảo của nhà cung cấp."
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 #, python-format
 msgid "Go back to the purchase order to generate the vendor bill."
-msgstr "Quay lại đơn mua hàng để tạo hóa đơn nhà cung cấp."
+msgstr "Quay lại đơn mua hàng để tạo hóa đơn mua hàng."
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_vendor_delay_report__id
