@@ -38,12 +38,12 @@ msgstr "Báo cáo Tổng quan Định mức nguyên liệu"
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_mrp_bom
 msgid "Bill of Material"
-msgstr "Định mức nguyên liệu"
+msgstr "Danh mục vật tư"
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_mrp_bom_line
 msgid "Bill of Material Line"
-msgstr "Dòng định mức nguyên liệu"
+msgstr "Dòng danh mục vật tư"
 
 #. module: purchase_mrp
 #. odoo-python
