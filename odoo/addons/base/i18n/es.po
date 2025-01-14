@@ -2963,6 +2963,15 @@ msgstr ""
 "- Lista regional de estados\n"
 
 #. module: base
+#: model:ir.module.module,description:base.module_l10n_tr_nilvera
+msgid ""
+"\n"
+"Base module containing core functionalities required by other Nilvera modules.\n"
+msgstr ""
+"\n"
+"Módulo base que incluye las funciones básicas requeridas por otros módulos de Nilvera.\n"
+
+#. module: base
 #: model:ir.module.module,description:base.module_l10n_bo_reports
 msgid ""
 "\n"
@@ -4955,6 +4964,15 @@ msgid ""
 msgstr ""
 "\n"
 "Filtra las líneas de stock que están en el widget de conciliación\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_tr_nilvera_einvoice
+msgid ""
+"\n"
+"For sending and receiving electronic invoices to Nilvera.\n"
+msgstr ""
+"\n"
+"Para enviar y recibir facturas electrónicas al sistema Nilvera.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_fr_hr_payroll
@@ -9144,6 +9162,17 @@ msgid ""
 " - Fiscal Positions\n"
 " - States\n"
 msgstr ""
+"\n"
+"Éste es el módulo base para gestionar el plan contable de Baréin en Odoo.\n"
+"===========================================================================\n"
+"Plan contable y localización bases de Baréin.\n"
+"\n"
+"Activa:\n"
+" - Plan contable\n"
+" - Impuestos\n"
+" - Informes de impuestos\n"
+" - Posiciones fiscales\n"
+" - Estados\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be
@@ -16005,7 +16034,7 @@ msgstr "Bahamas"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_bh
 msgid "Bahrain - Accounting"
-msgstr ""
+msgstr "Baréin - Contabilidad"
 
 #. module: base
 #: model:res.country,name:base.bh
@@ -38362,6 +38391,16 @@ msgstr "Turquía - Contabilidad"
 #: model:ir.module.module,shortdesc:base.module_l10n_tr_reports
 msgid "Türkiye - Accounting Reports"
 msgstr "Turquía - Reportes contables"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_tr_nilvera
+msgid "Türkiye - Nilvera"
+msgstr "Türkiye - Nilvera"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_tr_nilvera_einvoice
+msgid "Türkiye - Nilvera E-Invoice"
+msgstr "Türkiye - Nilvera - Factura electrónica"
 
 #. module: base
 #: model:res.country,name:base.tm
