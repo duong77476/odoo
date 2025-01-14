@@ -4,15 +4,15 @@
 #
 # Translators:
 # Wil Odoo, 2023
-# Thi Huong Nguyen, 2024
-#
+# Thi Huong Nguyen, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-26 21:55+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Thi Huong Nguyen, 2024\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -255,7 +255,7 @@ msgstr "Dự báo"
 #: model:ir.model.fields.selection,name:membership.selection__report_membership__membership_state__free
 #: model:ir.model.fields.selection,name:membership.selection__res_partner__membership_state__free
 msgid "Free Member"
-msgstr "Miễn phí hội viên"
+msgstr "Thành viên miễn phí"
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line__date_from
@@ -421,7 +421,7 @@ msgstr "Quản lý hội viên"
 #: model:ir.model.fields,field_description:membership.field_res_partner__membership_amount
 #: model:ir.model.fields,field_description:membership.field_res_users__membership_amount
 msgid "Membership Amount"
-msgstr "Membership Amount"
+msgstr "Phí thành viên"
 
 #. module: membership
 #: model:ir.model,name:membership.model_report_membership
@@ -569,7 +569,7 @@ msgstr "Đối tác không có địa chỉ để lên hoá đơn."
 #: code:addons/membership/models/partner.py:0
 #, python-format
 msgid "Partner is a free Member."
-msgstr "Đối tác được miễn phí hội viên."
+msgstr "Đối tác là thành viên miễn phí."
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership__tot_pending
