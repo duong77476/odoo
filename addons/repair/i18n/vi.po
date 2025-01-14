@@ -500,7 +500,7 @@ msgstr "Nhóm theo"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order_make_invoice__group
 msgid "Group by partner invoice address"
-msgstr "Nhóm theo địa chỉ xuất hoá đơn của đối tác"
+msgstr "Nhóm theo địa chỉ lập hoá đơn của đối tác"
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__has_message
