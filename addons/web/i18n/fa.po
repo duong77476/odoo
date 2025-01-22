@@ -29933,8 +29933,6 @@ msgstr "ریل معلق"
 #, python-format
 msgid "swan"
 msgstr ""
-"قو<button>ن<bold>iپ</bold><csv>لiخا</csv>ن</button><input>%s<button> ارا "
-"</button></input>ن<bold>قلابiرا</bold>سiفخ<snap>0٪</snap>"
 
 #. module: web
 #. odoo-javascript
