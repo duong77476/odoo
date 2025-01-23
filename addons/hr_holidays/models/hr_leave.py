@@ -1159,8 +1159,13 @@ Attempting to double-book your time off won't magically make your vacation 2x be
             'date_to': self.date_to,
             'request_date_from': self.request_date_from,
             'request_date_to': self.request_date_to,
+            'request_hour_from': self.request_hour_from,
+            'request_hour_to': self.request_hour_to,
+            'request_unit_hours': self.request_unit_hours,
+            'request_unit_half': self.request_unit_half,
             'notes': self.notes,
             'number_of_days': work_days_data[employee.id]['days'],
+            'number_of_hours': work_days_data[employee.id]['hours'],
             'parent_id': self.id,
             'employee_id': employee.id,
             'employee_ids': employee,
@@ -1541,7 +1546,7 @@ Attempting to double-book your time off won't magically make your vacation 2x be
     def _get_responsible_for_approval(self):
         self.ensure_one()
 
-        responsible = self.env.user
+        responsible = self.env['res.users']
 
         if self.holiday_type != 'employee':
             return responsible
@@ -1586,7 +1591,7 @@ Attempting to double-book your time off won't magically make your vacation 2x be
                             leave_type=holiday.holiday_status_id.name,
                         )
                         to_do_confirm_activity |= holiday
-                    user_ids = holiday.sudo()._get_responsible_for_approval().ids or self.env.user.ids
+                    user_ids = holiday.sudo()._get_responsible_for_approval().ids
                     for user_id in user_ids:
                         date_deadline = (
                             (holiday.date_from -
