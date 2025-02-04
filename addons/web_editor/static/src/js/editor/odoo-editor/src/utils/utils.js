@@ -1669,7 +1669,7 @@ export function isUnbreakable(node) {
                 node.getAttribute('t-out') ||
                 node.getAttribute('t-raw')) ||
                 node.getAttribute('t-field')) ||
-        node.matches(".oe_unbreakable, a.btn, a[role='tab'], a[role='button']")
+        node.matches(".oe_unbreakable, a.btn, a[role='tab'], a[role='button'], li.nav-item")
     );
 }
 
@@ -2432,7 +2432,7 @@ export function fillEmpty(el) {
         blockEl.appendChild(br);
         fillers.br = br;
     }
-    if (!isTangible(el) && !el.hasAttribute("data-oe-zws-empty-inline") && !el.hasChildNodes()) {
+    if (!isTangible(el) && !el.hasAttribute("data-oe-zws-empty-inline") && isEmptyBlock(el)) {
         // As soon as there is actual content in the node, the zero-width space
         // is removed by the sanitize function.
         const zws = document.createTextNode('\u200B');
@@ -3298,5 +3298,12 @@ export function isMacOS() {
 export function cleanZWS(node) {
     [node, ...descendants(node)]
         .filter(node => node.nodeType === Node.TEXT_NODE && node.nodeValue.includes('\u200B'))
-        .forEach(node => node.nodeValue = node.nodeValue.replace(/\u200B/g, ''));
+        .forEach((node) => {
+            node.nodeValue = node.nodeValue.replace(/\u200B/g, "");
+
+            // If a node becomes empty after removing ZWS, remove it.
+            if (node.nodeValue === "") {
+                node.remove();
+            }
+        });
 }

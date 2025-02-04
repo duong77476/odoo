@@ -856,6 +856,11 @@ export class OdooEditor extends EventTarget {
         let previousItem = null;
         let previousValue = -1;
         const style = this.document.defaultView.getComputedStyle(this.document.body);
+        const smallFontSizeVariables = [
+            "small-twelve-font-size",
+            "small-ten-font-size",
+            "small-eight-font-size",
+        ];
         for (const itemEl of fontSizeDropdownEl.querySelectorAll("[data-dynamic-value]")) {
             const variableName = itemEl.dataset.dynamicValue;
             const strValue = this.options.getCSSVariableValue(variableName, style);
@@ -872,6 +877,13 @@ export class OdooEditor extends EventTarget {
             }
             previousItem = itemEl;
             previousValue = pxValue;
+
+            if (
+                this.options.showResponsiveFontSizesBadges &&
+                smallFontSizeVariables.includes(variableName)
+            ) {
+                itemEl.classList.add("d-none");
+            }
         }
 
         for (const badgeEl of fontSizeDropdownEl.querySelectorAll(".o_we_font_size_badge")) {
@@ -3423,6 +3435,9 @@ export class OdooEditor extends EventTarget {
         this.toolbar.classList.toggle('d-none', false);
         this.toolbar.style.maxWidth = window.innerWidth - OFFSET * 2 + 'px';
         const sel = this.document.getSelection();
+        if (!sel.rangeCount) {
+            return;
+        }
         const range = sel.getRangeAt(0);
         const isSelForward =
             sel.anchorNode === range.startContainer && sel.anchorOffset === range.startOffset;
@@ -4648,6 +4663,16 @@ export class OdooEditor extends EventTarget {
         // Remove empty class attributes
         for (const el of element.querySelectorAll('*[class=""]')) {
             el.removeAttribute('class');
+        }
+
+        // Fix t-field inline nodes to use div as root instead.
+        for (const el of element.querySelectorAll('b[data-oe-field][data-oe-type="html"]')) {
+            const blockEl = this.document.createElement('div');
+            for (const attr of el.attributes) {
+                blockEl.setAttribute(attr.name, attr.value);
+            }
+            blockEl.replaceChildren(...el.childNodes);
+            el.replaceWith(blockEl);
         }
     }
     /**
