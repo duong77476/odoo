@@ -3522,7 +3522,8 @@ msgstr "לא ניתן ליצור קוד חשבון שאינו בשימוש."
 msgid ""
 "Cannot generate an unused journal code. Please change the name for journal "
 "%s."
-msgstr "לא ניתן לייצר קוד יומן לא בשימוש. אנא שנה את שם היומן."
+msgstr "לא ניתן לייצר קוד יומן לא בשימוש. אנא שנה את שם היומן "
+"%s."
 
 #. module: account
 #. odoo-python
