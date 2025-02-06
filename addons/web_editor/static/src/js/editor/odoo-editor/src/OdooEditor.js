@@ -856,6 +856,11 @@ export class OdooEditor extends EventTarget {
         let previousItem = null;
         let previousValue = -1;
         const style = this.document.defaultView.getComputedStyle(this.document.body);
+        const smallFontSizeVariables = [
+            "small-twelve-font-size",
+            "small-ten-font-size",
+            "small-eight-font-size",
+        ];
         for (const itemEl of fontSizeDropdownEl.querySelectorAll("[data-dynamic-value]")) {
             const variableName = itemEl.dataset.dynamicValue;
             const strValue = this.options.getCSSVariableValue(variableName, style);
@@ -872,6 +877,13 @@ export class OdooEditor extends EventTarget {
             }
             previousItem = itemEl;
             previousValue = pxValue;
+
+            if (
+                this.options.showResponsiveFontSizesBadges &&
+                smallFontSizeVariables.includes(variableName)
+            ) {
+                itemEl.classList.add("d-none");
+            }
         }
 
         for (const badgeEl of fontSizeDropdownEl.querySelectorAll(".o_we_font_size_badge")) {
@@ -2117,6 +2129,11 @@ export class OdooEditor extends EventTarget {
         let range = getDeepRange(this.editable, { sel, correctTripleClick: true });
         if (!range) return;
         for (const node of descendants(closestBlock(range.commonAncestorContainer))) {
+            // Protected text nodes should never be removed (as they could be needed i.e. in case
+            // of OWL rendering).
+            if (isProtected(node)) {
+                continue;
+            }
             if (node.nodeType === Node.TEXT_NODE && [...node.textContent].every(char => char === '\uFEFF')) {
                 const restore = prepareUpdate(...leftPos(node));
                 node.remove();
@@ -3423,6 +3440,9 @@ export class OdooEditor extends EventTarget {
         this.toolbar.classList.toggle('d-none', false);
         this.toolbar.style.maxWidth = window.innerWidth - OFFSET * 2 + 'px';
         const sel = this.document.getSelection();
+        if (!sel.rangeCount) {
+            return;
+        }
         const range = sel.getRangeAt(0);
         const isSelForward =
             sel.anchorNode === range.startContainer && sel.anchorOffset === range.startOffset;
@@ -4355,6 +4375,13 @@ export class OdooEditor extends EventTarget {
             // selection was moved and the moment the event is triggered.
             return;
         }
+        const startTd = closestElement(selection.anchorNode, '.o_selected_td');
+        const endTd = closestElement(selection.focusNode, '.o_selected_td');
+        if (!(startTd && startTd === endTd) || currentKeyPress) {
+            // Prevent deselecting single cell unless selection changes
+            // through keyboard.
+            this.deselectTable();
+        }
         const anchorNode = selection.anchorNode;
         // Correct cursor if at editable root.
         if (
@@ -4375,15 +4402,11 @@ export class OdooEditor extends EventTarget {
             // The _onSelectionChange handler is going to be triggered again.
             return;
         }
-        let appliedCustomSelection = false;
         if (selection.rangeCount && selection.getRangeAt(0)) {
-            appliedCustomSelection = this._handleSelectionInTable();
-            if (!appliedCustomSelection) {
-                this.deselectTable();
-            }
+            this._handleSelectionInTable();
         }
         const isSelectionInEditable = this.isSelectionInEditable(selection);
-        if (!appliedCustomSelection) {
+        if (!hasTableSelection(this.editable)) {
             this._updateToolbar(!selection.isCollapsed && isSelectionInEditable);
         }
         if (!isSelectionInEditable) {
@@ -4648,6 +4671,16 @@ export class OdooEditor extends EventTarget {
         // Remove empty class attributes
         for (const el of element.querySelectorAll('*[class=""]')) {
             el.removeAttribute('class');
+        }
+
+        // Fix t-field inline nodes to use div as root instead.
+        for (const el of element.querySelectorAll('b[data-oe-field][data-oe-type="html"]')) {
+            const blockEl = this.document.createElement('div');
+            for (const attr of el.attributes) {
+                blockEl.setAttribute(attr.name, attr.value);
+            }
+            blockEl.replaceChildren(...el.childNodes);
+            el.replaceWith(blockEl);
         }
     }
     /**
