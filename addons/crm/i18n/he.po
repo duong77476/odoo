@@ -1312,7 +1312,7 @@ msgstr ""
 #: code:addons/crm/models/crm_lead.py:0
 #, python-format
 msgid "Duration: %s"
-msgstr "משך זמן:"
+msgstr "משך זמן: %s"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_forecast

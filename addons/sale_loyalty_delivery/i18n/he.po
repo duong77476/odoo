@@ -49,7 +49,7 @@ msgstr "משלוח חינם"
 #: code:addons/sale_loyalty_delivery/models/sale_order.py:0
 #, python-format
 msgid "Free Shipping - %s"
-msgstr "משלוח חינם-"
+msgstr "משלוח חינם- %s"
 
 #. module: sale_loyalty_delivery
 #. odoo-python
