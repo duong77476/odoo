@@ -6,15 +6,16 @@
 # fanha99 <fanha99@hotmail.com>, 2022
 # Martin Trigaux, 2022
 # Nancy Momoland <thanh.np2502@gmail.com>, 2022
-# Thi Huong Nguyen, 2024
+# Wil Odoo, 2025
+# Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-06 13:32+0000\n"
+"POT-Creation-Date: 2025-02-10 08:27+0000\n"
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
-"Last-Translator: Thi Huong Nguyen, 2024\n"
+"Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,8 +73,8 @@ msgid ""
 "company. Note that standard subcontracting routes will be adapted so as to "
 "take these into account automatically."
 msgstr ""
-"Chọn ô này để tạo một địa điểm gia công mới dành riêng cho công ty này. Lưu "
-"ý rằng các tuyến gia công tiêu chuẩn sẽ được điều chỉnh để tự động tính cả "
+"Chọn ô này để tạo một vị trí gia công mới dành riêng cho công ty này. Lưu ý "
+"rằng các tuyến gia công tiêu chuẩn sẽ được điều chỉnh để tự động tính cả "
 "chúng."
 
 #. module: mrp_subcontracting
@@ -136,7 +137,7 @@ msgstr "Huỷ"
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_picking__display_action_record_components
 msgid "Display Action Record Components"
-msgstr "Hiển thị hành động ghi nhận các nguyên liệu"
+msgstr "Hiển thị hành động ghi nhận các thành phần"
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -180,7 +181,7 @@ msgstr "Lệnh chuyển hàng vào"
 #. module: mrp_subcontracting
 #: model:ir.model,name:mrp_subcontracting.model_stock_location
 msgid "Inventory Locations"
-msgstr "Địa điểm kiểm kho"
+msgstr "Vị trí kiểm kho"
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_quant__is_subcontract
@@ -190,7 +191,7 @@ msgstr "Là gia công"
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_location__is_subcontracting_location
 msgid "Is a Subcontracting Location?"
-msgstr "Là một địa điểm gia công?"
+msgstr "Là một vị trí gia công?"
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,help:mrp_subcontracting.field_mrp_production__bom_product_ids
@@ -206,7 +207,7 @@ msgstr ""
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 #, python-format
 msgid "Locations to update"
-msgstr "Địa điểm cần cập nhật"
+msgstr "Vị trí cần cập nhật"
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_partner__production_ids
@@ -355,7 +356,7 @@ msgstr "Ghi nhận sản xuất"
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.stock_picking_form_view
 msgid "Record components"
-msgstr "Ghi nhận nguyên liệu"
+msgstr "Ghi nhận thành phần"
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.stock_picking_form_view
@@ -489,7 +490,7 @@ msgstr "Địa điểm thuê gia công"
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.quant_subcontracting_search_view
 msgid "Subcontracting Locations"
-msgstr "Địa điểm gia công"
+msgstr "Vị trí gia công"
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_stock_warehouse__subcontracting_mto_pull_id
@@ -591,7 +592,7 @@ msgstr ""
 #: code:addons/mrp_subcontracting/models/mrp_production.py:0
 #, python-format
 msgid "This MO isn't related to a subcontracted move"
-msgstr "LSX này không liên quan đến một dịch chuyển được gia công"
+msgstr "MO này không liên quan đến một dịch chuyển được gia công"
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -610,6 +611,11 @@ msgstr "Tổng đã tiêu thụ"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_mrp_production__incoming_picking
 msgid "Transfer"
 msgstr "Lệnh chuyển hàng"
+
+#. module: mrp_subcontracting
+#: model_terms:ir.ui.view,arch_db:mrp_subcontracting.mrp_subcontracting_stock_move_line_tree_view
+msgid "Unit of Measure"
+msgstr "Đơn vị tính"
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,help:mrp_subcontracting.field_mrp_production__subcontractor_id
@@ -648,7 +654,7 @@ msgstr ""
 #: code:addons/mrp_subcontracting/models/stock_location.py:0
 #, python-format
 msgid "You cannot alter the company's subcontracting location"
-msgstr "Bạn không thể thay đổi địa điểm gia công của công ty"
+msgstr "Bạn không thể thay đổi vị trí gia công của công ty"
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -662,8 +668,7 @@ msgstr "Bạn không thể ghi lên trường %s trong mrp.production."
 #: code:addons/mrp_subcontracting/models/stock_picking.py:0
 #, python-format
 msgid "You might want to update the locations of this transfer's operations"
-msgstr ""
-"Có thể bạn cần cập nhật địa điểm của các hoạt động lệnh chuyển hàng này"
+msgstr "Có thể bạn cần cập nhật vị trí của các hoạt động lệnh chuyển hàng này"
 
 #. module: mrp_subcontracting
 #. odoo-python
@@ -687,8 +692,8 @@ msgid ""
 "You must indicate a non-zero amount consumed for at least one of your "
 "components"
 msgstr ""
-"Bạn phải chỉ ra số lượng khác 0 được sử dụng cho ít nhất một trong các "
-"nguyên liệu của mình"
+"Bạn phải chỉ ra số lượng khác 0 được sử dụng cho ít nhất một trong các thành"
+" phần của mình"
 
 #. module: mrp_subcontracting
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting.subcontracting_portal_production_form_view
