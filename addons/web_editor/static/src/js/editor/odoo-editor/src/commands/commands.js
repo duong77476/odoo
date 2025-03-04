@@ -57,6 +57,7 @@ import {
     lastLeaf,
     firstLeaf,
     convertList,
+    hasAnyFontSizeClass,
 } from '../utils/utils.js';
 
 const TEXT_CLASSES_REGEX = /\btext-[^\s]*\b/;
@@ -163,6 +164,7 @@ export const editorCommands = {
         }
         const range = selection.getRangeAt(0);
         const block = closestBlock(selection.anchorNode);
+        const isInList = closestElement(selection.anchorNode, 'LI');
         const isSelectionAtStart = firstLeaf(block) === selection.anchorNode && selection.anchorOffset === 0;
         const isSelectionAtEnd = lastLeaf(block) === selection.focusNode && selection.focusOffset === nodeSize(selection.focusNode);
         if (range.startContainer.nodeType === Node.TEXT_NODE) {
@@ -352,7 +354,7 @@ export const editorCommands = {
             }
             // Ensure that all adjacent paragraph elements are converted to
             // <li> when inserting in a list.
-            if (block.nodeName === "LI" && paragraphRelatedElements.includes(nodeToInsert.nodeName)) {
+            if (isInList && paragraphRelatedElements.includes(nodeToInsert.nodeName)) {
                 setTagName(nodeToInsert, "LI");
             }
             // Contenteditable false property changes to true after the node is
@@ -378,15 +380,16 @@ export const editorCommands = {
                 currentNode.remove();
             }
             // If the first child of editable is contenteditable false element
-            // a chromium bug prevents selecting the container. Prepend a
-            // zero-width space so it's no longer the first child.
+            // a chromium bug prevents selecting the container.
+            // Add a paragraph above it so it's no longer the first child.
             if (
                 !isNodeToInsertContentEditable &&
                 editor.editable.firstChild === nodeToInsert &&
                 nodeToInsert.nodeName === 'DIV'
             ) {
-                const zws = document.createTextNode('\u200B');
-                nodeToInsert.before(zws);
+                const p = document.createElement("p");
+                p.append(document.createElement("br"));
+                nodeToInsert.before(p);
             }
             currentNode = convertedList || nodeToInsert;
         }
@@ -515,7 +518,7 @@ export const editorCommands = {
     underline: editor => formatSelection(editor, 'underline'),
     strikeThrough: editor => formatSelection(editor, 'strikeThrough'),
     setFontSize: (editor, size) => formatSelection(editor, 'fontSize', {applyStyle: true, formatProps: {size}}),
-    setFontSizeClassName: (editor, className) => formatSelection(editor, 'setFontSizeClassName', {formatProps: {className}}),
+    setFontSizeClassName: (editor, className) => formatSelection(editor, 'setFontSizeClassName', {applyStyle: true, formatProps: {className}}),
     switchDirection: editor => {
         getDeepRange(editor.editable, { splitText: true, select: true, correctTripleClick: true });
         const selection = editor.document.getSelection();
@@ -560,6 +563,7 @@ export const editorCommands = {
         // created in the middle of the process, which we prevent here.
         editor.historyPauseSteps();
         editor.document.execCommand('removeFormat');
+        let hasFontSizeClass;
         for (const node of getTraversedNodes(editor.editable)) {
             if (node.nodeType === Node.ELEMENT_NODE && node.hasAttribute('color')) {
                 node.removeAttribute('color');
@@ -567,6 +571,15 @@ export const editorCommands = {
             const element = closestElement(node);
             element.style.removeProperty('color');
             element.style.removeProperty('background');
+            if (hasAnyFontSizeClass(element)) {
+                hasFontSizeClass = true;
+            }
+        }
+        if (hasFontSizeClass) {
+            // Calling `document.execCommand` will not remove font-size
+            // if font-size is applied through a css class. To remove
+            // those styles, font-size classes should be removed.
+            formatSelection(editor, 'setFontSizeClassName', { applyStyle: false });
         }
         textAlignStyles.forEach((textAlign, block) => {
             block.style.setProperty('text-align', textAlign);

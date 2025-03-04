@@ -4,14 +4,14 @@
 #
 # Translators:
 # Martin Trigaux, 2024
-# Wil Odoo, 2024
+# Wil Odoo, 2025
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-13 10:26+0000\n"
+"POT-Creation-Date: 2025-02-10 10:33+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
@@ -249,16 +249,6 @@ msgstr "+1 555-555-5556"
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
 msgid "+1 555-555-5556\""
 msgstr "+1 555-555-5556\""
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.searchbar_input_snippet_options
-msgid ", .s_searchbar_input"
-msgstr ", .s_searchbar_input"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.s_website_form_options
-msgid ", .s_website_form"
-msgstr ", .s_website_form"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
@@ -1901,8 +1891,8 @@ msgstr "Thêm ngôn ngữ"
 #. odoo-javascript
 #: code:addons/website/static/src/snippets/s_website_form/options.js:0
 #, python-format
-msgid "Add new %s"
-msgstr "Thêm %s mới"
+msgid "Add option"
+msgstr "Thêm tuỳ chọn"
 
 #. module: website
 #. odoo-javascript
@@ -3103,6 +3093,13 @@ msgid "Checkbox"
 msgstr "Hộp kiểm"
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_website_form/options.js:0
+#, python-format
+msgid "Checkbox List"
+msgstr "Danh sách hộp kiểm"
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_product_catalog
 msgid "Cheese Onion Rings"
 msgstr "Vòng hành tây phô mai"
@@ -3848,6 +3845,14 @@ msgstr "Mã tùy chỉnh"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Custom Key"
 msgstr "Khóa tùy chỉnh"
+
+#. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_website_form/options.js:0
+#: code:addons/website/static/src/snippets/s_website_form/options.js:0
+#, python-format
+msgid "Custom Text"
+msgstr "Văn bản tuỳ chỉnh"
 
 #. module: website
 #. odoo-javascript
@@ -4991,6 +4996,13 @@ msgstr "Ví dụ"
 
 #. module: website
 #. odoo-javascript
+#: code:addons/website/static/src/snippets/s_website_form/options.js:0
+#, python-format
+msgid "Existing Fields"
+msgstr "Trường tồn tại"
+
+#. module: website
+#. odoo-javascript
 #: code:addons/website/static/src/components/resource_editor/utils.js:0
 #, python-format
 msgid "Expected "
@@ -5209,6 +5221,13 @@ msgstr "Lưới yêu thích"
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_options_template
 msgid "Fetched elements"
 msgstr "Yếu tố được nạp"
+
+#. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_website_form/options.js:0
+#, python-format
+msgid "Field"
+msgstr "Trường"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_snippet_filter__field_names
@@ -6643,7 +6662,7 @@ msgstr "Chèn snippet biểu đồ"
 #: code:addons/website/static/src/components/wysiwyg_adapter/wysiwyg_adapter.js:0
 #, python-format
 msgid "Insert a progress bar snippet"
-msgstr "Chèn snippet thanh tiến trình"
+msgstr "Chèn snippet thanh tiến độ"
 
 #. module: website
 #. odoo-javascript
@@ -8016,7 +8035,7 @@ msgstr "Module Tiếp thị Tự động"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings__module_website_livechat
 msgid "Module Website Livechat"
-msgstr "Phân hệ Trang web Trò chuyện Trực tiếp"
+msgstr "Phân hệ Trang web Trò chuyện trực tiếp"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -8719,6 +8738,13 @@ msgstr "Lựa chọn 2"
 #, python-format
 msgid "Option 3"
 msgstr "Lựa chọn 3"
+
+#. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_website_form/options.js:0
+#, python-format
+msgid "Option List"
+msgstr "Danh sách tùy chọn"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_website_form_options
@@ -9501,7 +9527,7 @@ msgstr "Hồ sơ"
 #: model_terms:ir.ui.view,arch_db:website.snippets
 #, python-format
 msgid "Progress Bar"
-msgstr "Thanh tiến trình"
+msgstr "Thanh tiến độ"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_countdown_options
@@ -9521,12 +9547,12 @@ msgstr "Độ dày thanh tiến độ"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_2_s_three_columns
 msgid "Progress Tracking"
-msgstr "Theo dõi tiến trình"
+msgstr "Theo dõi tiến độ"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_progress_bar
 msgid "Progress bar"
-msgstr "Thanh tiến trình"
+msgstr "Thanh tiến độ"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -9655,6 +9681,13 @@ msgid "Radar"
 msgstr "Radar"
 
 #. module: website
+#. odoo-javascript
+#: code:addons/website/static/src/snippets/s_website_form/options.js:0
+#, python-format
+msgid "Radio Button List"
+msgstr "Danh sách tuỳ chọn nút radio"
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_website_form_options
 msgid "Radio Buttons"
 msgstr "Nút tròn"
@@ -9707,13 +9740,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_s_features
 msgid "Rebranding"
 msgstr "Làm mới thương hiệu"
-
-#. module: website
-#. odoo-javascript
-#: code:addons/website/static/src/snippets/s_facebook_page/options.js:0
-#, python-format
-msgid "Recent Facebook Issues"
-msgstr "Các vấn đề Facebook gần đây"
 
 #. module: website
 #. odoo-javascript
@@ -9905,7 +9931,7 @@ msgstr "Việc thiết lập lại các giao diện chưa được hỗ trợ"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
 msgid "Resources"
-msgstr "Nguồn lực"
+msgstr "Tài nguyên"
 
 #. module: website
 #. odoo-javascript
@@ -11670,17 +11696,6 @@ msgid "This URL is contained in the “%(field)s” of the following “%(model)
 msgstr "URL này được chứa trong “%(field)s” của “%(model)s” sau đây"
 
 #. module: website
-#. odoo-javascript
-#: code:addons/website/static/src/snippets/s_facebook_page/options.js:0
-#, python-format
-msgid ""
-"This block will temporarily not be shown on mobile due to recent Facebook "
-"issues."
-msgstr ""
-"Khối này tạm thời sẽ không hiển thị trên thiết bị di động do sự cố Facebook "
-"gần đây."
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_services_0_s_three_columns
 msgid ""
 "This coaching program offers specialized strength-focused workouts, "
@@ -11872,7 +11887,6 @@ msgstr "Dạng xem kiến trúc này đã được sửa đổi"
 
 #. module: website
 #. odoo-javascript
-#: code:addons/website/static/src/systray_items/website_switcher.xml:0
 #: code:addons/website/static/src/systray_items/website_switcher.js:0
 #, python-format
 msgid "This website does not have a domain configured."
@@ -12927,8 +12941,8 @@ msgid ""
 "We monitor your progress meticulously, adjusting your plan as needed to "
 "ensure continuous improvement and results."
 msgstr ""
-"Chúng tôi theo dõi tiến trình của bạn một cách tỉ mỉ, điều chỉnh kế hoạch "
-"khi cần thiết để đảm bảo kết quả và cải thiện liên tục."
+"Chúng tôi theo dõi tiến độ của bạn một cách tỉ mỉ, điều chỉnh kế hoạch khi "
+"cần thiết để đảm bảo kết quả và cải thiện liên tục."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_cards

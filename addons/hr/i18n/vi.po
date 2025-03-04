@@ -3,14 +3,14 @@
 # 	* hr
 #
 # Translators:
-# Wil Odoo, 2024
+# Wil Odoo, 2025
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-13 10:26+0000\n"
+"POT-Creation-Date: 2025-02-10 10:33+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
@@ -75,11 +75,6 @@ msgstr "1 cuộc điện thoại"
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "12 days / year, including <br>6 of your choice."
 msgstr "12 ngày / năm, bao gồm <br/>6 ngày tự chọn."
-
-#. module: hr
-#: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
-msgid "12345678901"
-msgstr "12345678901"
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -557,6 +552,11 @@ msgid "Available"
 msgstr "Khả dụng"
 
 #. module: hr
+#: model_terms:ir.ui.view,arch_db:hr.mail_activity_plan_view_form
+msgid "Available for all Departments"
+msgstr "Khả dụng cho mọi phòng ban"
+
+#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_1920
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_1920
 msgid "Avatar"
@@ -617,6 +617,11 @@ msgstr "Mã số thẻ"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__bank_account_id
 msgid "Bank Account Number"
 msgstr "Số tài khoản ngân hàng"
+
+#. module: hr
+#: model:ir.model,name:hr.model_res_partner_bank
+msgid "Bank Accounts"
+msgstr "Tài khoản ngân hàng"
 
 #. module: hr
 #: model:ir.model,name:hr.model_base
@@ -1878,7 +1883,7 @@ msgstr "Địa điểm"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__location_number
 msgid "Location Number"
-msgstr "Số địa điểm"
+msgstr "Số vị trí"
 
 #. module: hr
 #: model:hr.department,name:hr.dep_rd_ltp
@@ -1939,11 +1944,6 @@ msgstr "Quản lý"
 #, python-format
 msgid "Manager of employee %s is not set."
 msgstr "Người quản lý của nhân viên %s thì chưa được thiết lập."
-
-#. module: hr
-#: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
-msgid "Marc Demo"
-msgstr "Marc Demo"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__marital
@@ -2683,7 +2683,7 @@ msgstr "Nhân viên liên quan dựa trên địa chỉ cá nhân"
 #: model:ir.model.fields,help:hr.field_hr_employee__user_id
 #: model:ir.model.fields,help:hr.field_resource_resource__user_id
 msgid "Related user name for the resource to manage its access."
-msgstr "Người dùng liên quan đến nguồn lực để quản lý sự truy cập."
+msgstr "Người dùng liên quan đến tài nguyên để quản lý sự truy cập."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_homeworking
@@ -2716,7 +2716,7 @@ msgstr "Đã từ chức/nghỉ việc"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__resource_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__resource_id
 msgid "Resource"
-msgstr "Nguồn lực"
+msgstr "Tài nguyên"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__resource_calendar_id
@@ -2727,7 +2727,7 @@ msgstr "Lịch nguồn lực"
 #. module: hr
 #: model:ir.model,name:hr.model_resource_resource
 msgid "Resources"
-msgstr "Nguồn lực"
+msgstr "Tài nguyên"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2853,11 +2853,6 @@ msgstr "Số bảo hiểm xã hội"
 #: model:ir.model.fields,help:hr.field_res_users__ssnid
 msgid "Social Security Number"
 msgstr "Số an sinh xã hội"
-
-#. module: hr
-#: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
-msgid "Software Developer"
-msgstr "Nhà phát triển phần mềm"
 
 #. module: hr
 #. odoo-python
@@ -3413,13 +3408,13 @@ msgstr "Thông tin công việc"
 #: model_terms:ir.ui.view,arch_db:hr.hr_work_location_form_view
 #: model_terms:ir.ui.view,arch_db:hr.hr_work_location_tree_view
 msgid "Work Location"
-msgstr "Địa điểm làm việc"
+msgstr "Vị trí làm việc"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_work_location_action
 #: model:ir.ui.menu,name:hr.menu_hr_work_location_tree
 msgid "Work Locations"
-msgstr "Địa điểm làm việc"
+msgstr "Vị trí làm việc"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__mobile_phone

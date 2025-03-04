@@ -12,19 +12,21 @@
 # Kostas Goutoudis <goutoudis@gmail.com>, 2024
 # Stefanos Nikou <stefanos.nikou@gmail.com>, 2024
 # Maria Chalepiadou, 2025
-# Anastasia Mimou, 2025
-# Gerasimos Kanelatos, 2025
-# Georgios Geitonas, 2025
+# Georgios Geitonas <g.geitonas@dileanity.com>, 2025
 # Agapi Psyllou, 2025
 # Charalampos Loukas, 2025
+# Iasonas Polydoros <j.polydoros@dileanity.com>, 2025
+# Gerasimos Kanelatos, 2025
+# Anastasia Mimou, 2025
+# Leonidas Chiotis, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-13 10:26+0000\n"
+"POT-Creation-Date: 2025-02-10 10:33+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Charalampos Loukas, 2025\n"
+"Last-Translator: Leonidas Chiotis, 2025\n"
 "Language-Team: Greek (https://app.transifex.com/odoo/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -340,7 +342,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
 msgid "<span>Balance</span>"
-msgstr ""
+msgstr "<span>Υπόλοιπο</span>"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
@@ -477,6 +479,9 @@ msgid ""
 "A consumable product is a product for which stock is not managed.\n"
 "A service is a non-material product you provide."
 msgstr ""
+"Ένα αποθηκεύσιμο προϊόν είναι ένα προϊόν για το οποίο διαχειρίζεστε το απόθεμα. Η εφαρμογή Αποθήκης πρέπει να είναι εγκατεστημένη..\n"
+"Ένα καταναλώσιμο προϊόν είναι ένα προϊόν για το οποίο δεν διαχειρίζεστε το απόθεμα.\n"
+"Μια υπηρεσία είναι ένα άυλο προϊόν που παρέχετε."
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -532,7 +537,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__access_warning
 msgid "Access warning"
-msgstr ""
+msgstr "Προειδοποίηση πρόσβασης"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_search
@@ -599,7 +604,7 @@ msgstr "Δραστηριότητες"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "Δραστηριότητα Εξαίρεσης Διακόσμησης"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_state
@@ -2376,12 +2381,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_digest_digest
 msgid "Digest"
-msgstr ""
+msgstr "Περίληψη"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 msgid "Disc.%"
-msgstr ""
+msgstr "Εκπτ.%"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.report_saledetails
@@ -3035,7 +3040,7 @@ msgstr "Εικονίδιο"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Εικονίδιο που υποδεικνύει μια δραστηριότητα εξαίρεσης."
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__split_transactions
@@ -3772,7 +3777,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Η Προθεσμία της Δραστηριότητάς Μου"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_session_search
@@ -3868,6 +3873,11 @@ msgstr ""
 #: model:product.template,name:point_of_sale.newspaper_rack_product_template
 msgid "Newspaper Rack"
 msgstr ""
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Επόμενο Εκδήλωση Δραστηριότητας στο Ημερολόγιο"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_date_deadline
@@ -4675,7 +4685,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.xml:0
 #, python-format
 msgid "Payment method"
-msgstr ""
+msgstr "Μέθοδος πληρωμής"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -5685,6 +5695,11 @@ msgid "REFUNDED:"
 msgstr ""
 
 #. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_session__rating_ids
+msgid "Ratings"
+msgstr "Αξιολογήσεις"
+
+#. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/debug/debug_widget.xml:0
 #, python-format
@@ -5880,7 +5895,7 @@ msgstr "Αφαίρεση"
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/product_info_popup/product_info_popup.xml:0
 #, python-format
 msgid "Replenishment"
-msgstr ""
+msgstr "Ανατροφοδοσία"
 
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_point_rep
@@ -6045,7 +6060,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "Σφάλμα παράδοσης SMS"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -7780,7 +7795,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Τύπος της καταγεγραμμένης δραστηριότητας εξαίρεσης."
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -8432,7 +8447,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/screens/ticket_screen/ticket_screen.xml:0
 #, python-format
 msgid "in"
-msgstr ""
+msgstr "σε"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -8552,4 +8567,13 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/app/screens/partner_list/partner_editor/partner_editor.xml:0
 #, python-format
 msgid "{{partnerDetailsFields[item]}}"
+msgstr ""
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/account_journal.py:0
+#, python-format
+msgid ""
+"This journal is associated with payment method %s that is being used by "
+"order %s in the active pos session %s"
 msgstr ""
