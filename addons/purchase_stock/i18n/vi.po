@@ -308,7 +308,7 @@ msgstr "Lô hàng đang về"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__incoterm_location
 msgid "Incoterm Location"
-msgstr "Địa điểm Incoterm"
+msgstr "Vị trí Incoterm"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__is_shipped
@@ -707,7 +707,7 @@ msgstr "Trường kỹ thuật được sử dụng để hiển thị địa ch
 #: code:addons/purchase_stock/models/stock.py:0
 #, python-format
 msgid "The following replenishment order has been generated"
-msgstr "Đơn đặt hàng bổ sung sau đây đã được tạo"
+msgstr "Đơn bổ sung hàng sau đây đã được tạo"
 
 #. module: purchase_stock
 #. odoo-python

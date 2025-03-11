@@ -140,7 +140,7 @@ class PosSession(models.Model):
 
     @api.depends('order_ids.payment_ids.amount')
     def _compute_total_payments_amount(self):
-        result = self.env['pos.payment']._read_group([('session_id', 'in', self.ids)], ['session_id'], ['amount:sum'])
+        result = self.env['pos.payment']._read_group(self._get_captured_payments_domain(), ['session_id'], ['amount:sum'])
         session_amount_map = {session.id: amount for session, amount in result}
         for session in self:
             session.total_payments_amount = session_amount_map.get(session.id) or 0
@@ -934,7 +934,7 @@ class PosSession(models.Model):
             # revert the accounts because account.payment doesn't accept negative amount.
             outstanding_account, destination_account = destination_account, outstanding_account
 
-        account_payment = self.env['account.payment'].with_context({"pos_payment": True}).create({
+        account_payment = self.env['account.payment'].with_context(pos_payment=True).create({
             'amount': abs(amounts['amount']),
             'journal_id': payment_method.journal_id.id,
             'force_outstanding_account_id': outstanding_account.id,
@@ -1138,11 +1138,11 @@ class PosSession(models.Model):
         for payment_method, lines in payment_method_to_receivable_lines.items():
             receivable_account = self._get_receivable_account(payment_method)
             if receivable_account.reconcile:
-                lines.filtered(lambda line: not line.reconciled).reconcile()
+                lines.filtered(lambda line: not line.reconciled).with_context(no_cash_basis=True).reconcile()
 
         for payment, lines in payment_to_receivable_lines.items():
             if payment.partner_id.property_account_receivable_id.reconcile:
-                lines.filtered(lambda line: not line.reconciled).reconcile()
+                lines.filtered(lambda line: not line.reconciled).with_context(no_cash_basis=True).reconcile()
 
         # Reconcile invoice payments' receivable lines. But we only do when the account is reconcilable.
         # Though `account_default_pos_receivable_account_id` should be of type receivable, there is currently
@@ -1150,11 +1150,11 @@ class PosSession(models.Model):
         if self.company_id.account_default_pos_receivable_account_id.reconcile:
             for payment_method in combine_inv_payment_receivable_lines:
                 lines = combine_inv_payment_receivable_lines[payment_method] | combine_invoice_receivable_lines.get(payment_method, self.env['account.move.line'])
-                lines.filtered(lambda line: not line.reconciled).reconcile()
+                lines.filtered(lambda line: not line.reconciled).with_context(no_cash_basis=True).reconcile()
 
             for payment in split_inv_payment_receivable_lines:
                 lines = split_inv_payment_receivable_lines[payment] | split_invoice_receivable_lines.get(payment, self.env['account.move.line'])
-                lines.filtered(lambda line: not line.reconciled).reconcile()
+                lines.filtered(lambda line: not line.reconciled).with_context(no_cash_basis=True).reconcile()
 
         # reconcile stock output lines
         pickings = self.picking_ids.filtered(lambda p: not p.pos_order_id)
@@ -1164,7 +1164,7 @@ class PosSession(models.Model):
         for account_id in stock_output_lines:
             ( stock_output_lines[account_id]
             | stock_account_move_lines.filtered(lambda aml: aml.account_id == account_id)
-            ).filtered(lambda aml: not aml.reconciled).reconcile()
+            ).filtered(lambda aml: not aml.reconciled).with_context(no_cash_basis=True).reconcile()
         return data
 
     def _prepare_line(self, order_line):
@@ -1496,9 +1496,12 @@ class PosSession(models.Model):
             'type': 'ir.actions.act_window',
             'res_model': 'pos.payment',
             'view_mode': 'tree,form',
-            'domain': [('session_id', '=', self.id)],
+            'domain': self._get_captured_payments_domain(),
             'context': {'search_default_group_by_payment_method': 1}
         }
+    
+    def _get_captured_payments_domain(self):
+        return [('session_id', 'in', self.ids), ('pos_order_id.state', 'in', ['done', 'paid', 'invoiced'])]
 
     def open_frontend_cb(self):
         """Open the pos interface with config_id as an extra argument.

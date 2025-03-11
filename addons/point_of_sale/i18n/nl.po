@@ -9,14 +9,14 @@
 # Larissa Manderfeld, 2024
 # Jolien De Paepe, 2024
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2024
-# Wil Odoo, 2024
+# Wil Odoo, 2025
 # Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-13 10:26+0000\n"
+"POT-Creation-Date: 2025-02-10 10:33+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
@@ -3976,6 +3976,11 @@ msgid "Newspaper Rack"
 msgstr "Nieuwsbrief rek"
 
 #. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Volgende activiteitenafspraak"
+
+#. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr "Volgende activiteit deadline"
@@ -5823,6 +5828,11 @@ msgstr "REDEN"
 #, python-format
 msgid "REFUNDED:"
 msgstr "GERETOURNEERD:"
+
+#. module: point_of_sale
+#: model:ir.model.fields,field_description:point_of_sale.field_pos_session__rating_ids
+msgid "Ratings"
+msgstr "Beoordelingen"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -8880,3 +8890,14 @@ msgstr ""
 #, python-format
 msgid "{{partnerDetailsFields[item]}}"
 msgstr "{{partnerDetailsFields[item]}}"
+
+#. module: point_of_sale
+#. odoo-python
+#: code:addons/point_of_sale/models/account_journal.py:0
+#, python-format
+msgid ""
+"This journal is associated with payment method %s that is being used by "
+"order %s in the active pos session %s"
+msgstr ""
+"Dit dagboek is gekoppeld aan betaalmethode %s die wordt gebruikt door "
+"bestelling %s in de actieve Kassa-sessie %s."
