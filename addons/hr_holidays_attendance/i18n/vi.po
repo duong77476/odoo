@@ -4,7 +4,6 @@
 #
 # Translators:
 # Martin Trigaux, 2022
-# Wil Odoo, 2024
 # Thi Huong Nguyen, 2025
 # 
 msgid ""
@@ -31,7 +30,7 @@ msgstr "%s giờ khả dụng"
 #. module: hr_holidays_attendance
 #: model:ir.model,name:hr_holidays_attendance.model_hr_attendance
 msgid "Attendance"
-msgstr "Chuyên cần"
+msgstr "Chấm công"
 
 #. module: hr_holidays_attendance
 #. odoo-javascript
