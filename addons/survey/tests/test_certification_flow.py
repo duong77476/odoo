@@ -169,7 +169,7 @@ class TestCertificationFlow(common.TestSurveyCommon, HttpCase):
             })
             new_company.invalidate_model()  # cache pollution
         self.env['ir.actions.report'].with_user(user_new_company).with_company(new_company)\
-            ._render_qweb_pdf('survey.certification_report_view', res_ids=user_inputs.ids)
+            .sudo()._render_qweb_pdf('survey.certification_report_view', res_ids=user_inputs.ids)
 
     def test_randomized_certification(self):
         # Step: survey user creates the randomized certification
