@@ -1080,7 +1080,7 @@ msgstr "Fecha de nacimiento"
 #: code:addons/hr/models/hr_departure_reason.py:0
 #, python-format
 msgid "Default departure reasons cannot be deleted."
-msgstr "Las razones de salida predeterminadas no se pueden borrar."
+msgstr "Los motivos de salida predeterminados no se pueden eliminar."
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_department
@@ -1256,7 +1256,7 @@ msgstr "Correo electrónico"
 #. module: hr
 #: model:ir.model,name:hr.model_mail_alias
 msgid "Email Aliases"
-msgstr "Seudónimos de correo electrónico"
+msgstr "Seudónimos de correo"
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -2359,7 +2359,7 @@ msgstr ""
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__parent_id
 msgid "Parent Department"
-msgstr "Departamento padre"
+msgstr "Departamento principal"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__parent_path

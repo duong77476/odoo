@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 08:26+0000\n"
+"POT-Creation-Date: 2025-05-22 18:35+0000\n"
 "PO-Revision-Date: 2022-09-22 05:54+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
@@ -656,7 +656,7 @@ msgstr "<span class=\"o_stat_text\">Nhiệm vụ</span>"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "<span class=\"o_stat_text\">in Recurrence</span>"
-msgstr "<span class=\"o_stat_text\">trong sự lặp lại</span>"
+msgstr "<span class=\"o_stat_text\">trong chu kỳ lặp</span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
@@ -1588,7 +1588,7 @@ msgstr "Liên hệ"
 #: code:addons/project/static/src/components/project_stop_recurrence_confirmation_dialog/project_stop_recurrence_confirmation_dialog.xml:0
 #, python-format
 msgid "Continue Recurrence"
-msgstr "Tiếp tục định kỳ"
+msgstr "Tiếp tục chu kỳ lặp"
 
 #. module: project
 #. odoo-javascript
@@ -2923,7 +2923,7 @@ msgstr "Phiên bản phát sinh"
 #: code:addons/project/static/src/services/project_task_recurrence.js:0
 #, python-format
 msgid "It seems that some tasks are part of a recurrence."
-msgstr "Có vẻ như một số nhiệm vụ thuộc thuộc nhóm định kỳ."
+msgstr "Có vẻ như một số nhiệm vụ thuộc về một chu kỳ lặp."
 
 #. module: project
 #. odoo-javascript
@@ -2942,7 +2942,7 @@ msgstr ""
 #: code:addons/project/static/src/services/project_task_recurrence.js:0
 #, python-format
 msgid "It seems that this task is part of a recurrence."
-msgstr "Có vẻ như nhiệm vụ này thuộc nhóm định kỳ."
+msgstr "Có vẻ như nhiệm vụ này thuộc về một chu kỳ lặp."
 
 #. module: project
 #. odoo-javascript
@@ -3603,7 +3603,7 @@ msgstr "Kiểu hành động kế tiếp"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_recurrence__next_recurrence_date
 msgid "Next Recurrence Date"
-msgstr "Ngày lặp lại tiếp theo"
+msgstr "Ngày chu kỳ lặp tiếp theo"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__recurrence_message
@@ -3743,7 +3743,7 @@ msgstr "Số lượng hành động"
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_type__after
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_type__after
 msgid "Number of Repetitions"
-msgstr "Số lần tái diễn"
+msgstr "Số lần lặp lại"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_delete_wizard__tasks_count
@@ -3798,7 +3798,6 @@ msgid "Off Track"
 msgstr "Trễ tiến độ"
 
 #. module: project
-#: model:account.analytic.account,name:project.analytic_office_design
 #: model:project.project,name:project.project_project_1
 msgid "Office Design"
 msgstr "Thiết kế văn phòng"
@@ -4082,6 +4081,20 @@ msgid "Portal Access URL"
 msgstr "URL truy cập cổng thông tin"
 
 #. module: project
+#. odoo-python
+#: code:addons/project/models/project.py:0
+#, python-format
+msgid "Portal Parent Task"
+msgstr ""
+
+#. module: project
+#. odoo-python
+#: code:addons/project/models/project.py:0
+#, python-format
+msgid "Portal Sub-tasks"
+msgstr ""
+
+#. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__portal_user_names
 msgid "Portal User Names"
 msgstr "Tên người dùng cổng thông tin"
@@ -4337,7 +4350,7 @@ msgstr "Dự án: Dự án đã hoàn thành"
 #. module: project
 #: model:mail.template,name:project.mail_template_data_project_task
 msgid "Project: Request Acknowledgment"
-msgstr "Dự án: Yêu cầu xác nhận"
+msgstr "Dự án: Xác nhận yêu cầu"
 
 #. module: project
 #: model:ir.actions.server,name:project.ir_cron_rating_project_ir_actions_server
@@ -4590,12 +4603,12 @@ msgstr "Ghi nhận"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__recurrence_id
 msgid "Recurrence"
-msgstr "Định kỳ"
+msgstr "Chu kỳ lặp"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__recurrence_update
 msgid "Recurrence Update"
-msgstr "Cập nhật lịch lặp lại"
+msgstr "Cập nhật chu kỳ lặp"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__recurring_task
@@ -4638,7 +4651,6 @@ msgid "Related Document Model"
 msgstr "Mô hình tài liệu liên quan"
 
 #. module: project
-#: model:account.analytic.account,name:project.analytic_renovations
 #: model:project.project,name:project.project_project_3
 msgid "Renovations"
 msgstr "Cải tạo"
@@ -4730,7 +4742,6 @@ msgid "Research"
 msgstr "Nghiên cứu"
 
 #. module: project
-#: model:account.analytic.account,name:project.analytic_research_development
 #: model:project.project,name:project.project_project_2
 msgid "Research & Development"
 msgstr "Nghiên cứu & Phát triển"
@@ -5200,7 +5211,7 @@ msgstr ""
 #: code:addons/project/static/src/components/project_stop_recurrence_confirmation_dialog/project_stop_recurrence_confirmation_dialog.xml:0
 #, python-format
 msgid "Stop Recurrence"
-msgstr "Dừng định kỳ"
+msgstr "Dừng chu kỳ lặp"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__subtask_count
@@ -5363,7 +5374,7 @@ msgstr "Nhiệm vụ sẵn sàng"
 #. module: project
 #: model:ir.model,name:project.model_project_task_recurrence
 msgid "Task Recurrence"
-msgstr "Lặp lại công việc"
+msgstr "Chu kỳ lặp nhiệm vụ"
 
 #. module: project
 #: model:ir.model,name:project.model_project_task_type
@@ -6108,7 +6119,7 @@ msgstr "Xem nhiệm vụ"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__privacy_visibility
 msgid "Visibility"
-msgstr "Tính riêng tư"
+msgstr "Chế độ hiển thị"
 
 #. module: project
 #. odoo-javascript
@@ -6279,7 +6290,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You cannot delete recurring tasks. Please disable the recurrence first."
-msgstr "Bạn không thể xóa nhiệm vụ định kỳ. Hãy tắt định kỳ trước."
+msgstr "Bạn không thể xóa nhiệm vụ định kỳ. Hãy tắt chu kỳ lặp trước."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard

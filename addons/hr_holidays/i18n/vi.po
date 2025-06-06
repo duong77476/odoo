@@ -3111,7 +3111,7 @@ msgstr "Nghỉ"
 #: code:addons/hr_holidays/static/src/views/calendar/filter_panel/calendar_filter_panel.xml:0
 #, python-format
 msgid "Public Holiday"
-msgstr "Ngày lễ"
+msgstr "Nghỉ lễ"
 
 #. module: hr_holidays
 #. odoo-javascript
@@ -3657,7 +3657,7 @@ msgid ""
 "The distinction between working time (ex. Attendance) and absence (ex. "
 "Training) will be used in the computation of Accrual's plan rate."
 msgstr ""
-"Sự khác biệt giữa thời gian làm việc (VD: Chuyên cần) và vắng mặt (VD: Đào "
+"Sự khác biệt giữa thời gian làm việc (VD: Chấm công) và vắng mặt (VD: Đào "
 "tạo) sẽ được sử dụng để tính tỷ lệ kế hoạch tích lũy."
 
 #. module: hr_holidays

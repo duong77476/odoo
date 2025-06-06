@@ -230,8 +230,8 @@ msgid ""
 "This Nomenclature use the GS1 specification, only GS1-128 encoding rules is "
 "accepted is this kind of nomenclature."
 msgstr ""
-"Phép đặt tên này sử dụng quy định kỹ thuật GS1, chỉ các quy tắc mã hóa "
-"GS1-128 được chấp nhận là loại phép đặt tên này."
+"Danh pháp này sử dụng quy định kỹ thuật GS1, chỉ các quy tắc mã hóa GS1-128 "
+"được chấp nhận là loại danh pháp này."
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-javascript
