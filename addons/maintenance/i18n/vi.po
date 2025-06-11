@@ -1380,7 +1380,7 @@ msgstr "Người dùng sẽ có thể quản lý các thiết bị."
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search
 #: model_terms:ir.ui.view,arch_db:maintenance.maintenance_team_kanban
 msgid "To Do"
-msgstr "Việc cần làm"
+msgstr "Cần làm"
 
 #. module: maintenance
 #: model_terms:ir.ui.view,arch_db:maintenance.hr_equipment_request_view_search

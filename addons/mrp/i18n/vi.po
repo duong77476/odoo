@@ -5328,7 +5328,7 @@ msgstr "Cần tiêu thụ"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "To Do"
-msgstr "Việc cần làm"
+msgstr "Cần làm"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban

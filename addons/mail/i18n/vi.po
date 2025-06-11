@@ -9705,12 +9705,12 @@ msgstr "Đến (Đối tác)"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__to_delete
 msgid "To Delete"
-msgstr ""
+msgstr "Chờ xóa"
 
 #. module: mail
 #: model:mail.activity.type,name:mail.mail_activity_data_todo
 msgid "To Do"
-msgstr "Việc cần làm"
+msgstr "Cần làm"
 
 #. module: mail
 #. odoo-javascript
