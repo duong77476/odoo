@@ -2368,7 +2368,7 @@ msgstr "關閉聊天視窗"
 #: code:addons/mail/static/src/components/chat_window_header/chat_window_header.xml:0
 #, python-format
 msgid "Close conversation"
-msgstr "關閉視窗"
+msgstr "關閉對話"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_channel_member__fold_state__closed
@@ -30064,7 +30064,7 @@ msgstr "貝殼"
 #: code:addons/mail/static/src/models_data/emoji_data.js:0
 #, python-format
 msgid "shellfish"
-msgstr "貝類/甲殻類"
+msgstr "貝類/甲殼類"
 
 #. module: mail
 #. odoo-javascript
