@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 20:36+0000\n"
+"POT-Creation-Date: 2025-06-13 00:52+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
 "Last-Translator: Manon Rondou, 2025\n"
 "Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
@@ -11806,9 +11806,9 @@ msgid ""
 "This is a simple hero unit, a simple jumbotron-style component for calling "
 "extra attention to featured content or information."
 msgstr ""
-"Il s'agit d'une simple unité de héros, un simple composant de style "
-"jumbotron pour attirer une attention supplémentaire sur le contenu ou les "
-"informations vedettes."
+"Il s'agit d'une simple unité hero, un simple composant de style jumbotron "
+"pour attirer une attention supplémentaire sur le contenu ou les informations"
+" vedettes."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -12284,6 +12284,13 @@ msgid "URL matching those filters will be rewritten using the CDN Base URL"
 msgstr ""
 "Les URL qui correspondent à ces filtres seront réécrits en utilisant l'URL "
 "CDN Base "
+
+#. module: website
+#. odoo-python
+#: code:addons/website/models/website_rewrite.py:0
+#, python-format
+msgid "URL must not start with '#'."
+msgstr "L'URL ne peut pas commencer par '#'."
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_rewrite__url_to
@@ -13867,6 +13874,13 @@ msgstr "et"
 #, python-format
 msgid "and copy paste the address of the font page here."
 msgstr "et copiez collez l'adresse de la page de police ici."
+
+#. module: website
+#. odoo-python
+#: code:addons/website/models/website_rewrite.py:0
+#, python-format
+msgid "base URL of 'URL to' should not be same as 'URL from'."
+msgstr "URL de base \"URL vers\" ne peut pas être identique à \"URL de\"."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets

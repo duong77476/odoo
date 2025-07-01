@@ -980,7 +980,7 @@ msgstr ""
 #: code:addons/web/static/src/views/form/form_controller.js:0
 #, python-format
 msgid "Add Properties"
-msgstr ""
+msgstr "Dodaj lastnosti"
 
 #. module: web
 #. odoo-javascript
@@ -1863,7 +1863,7 @@ msgstr "Zaključi"
 #: code:addons/web/static/src/core/file_viewer/file_viewer.xml:0
 #, python-format
 msgid "Close (Esc)"
-msgstr ""
+msgstr "Zapri (Esc)"
 
 #. module: web
 #. odoo-javascript
@@ -2055,7 +2055,7 @@ msgstr "Vsebina:"
 #: code:addons/web/static/src/views/fields/x2many/x2many_field.xml:0
 #, python-format
 msgid "Control panel buttons"
-msgstr ""
+msgstr "Gumbi nadzorne plošče"
 
 #. module: web
 #. odoo-javascript
@@ -3655,7 +3655,7 @@ msgstr "Slika"
 #: code:addons/web/static/src/views/fields/remaining_days/remaining_days_field.js:0
 #, python-format
 msgid "In %s days"
-msgstr "V%s dneh"
+msgstr "Čez %s dni"
 
 #. module: web
 #. odoo-javascript
@@ -6904,7 +6904,7 @@ msgstr ""
 #: code:addons/web/static/src/views/form/form_error_dialog/form_error_dialog.xml:0
 #, python-format
 msgid "Stay here"
-msgstr ""
+msgstr "Ostani tukaj"
 
 #. module: web
 #. odoo-javascript
@@ -12578,7 +12578,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "computer"
-msgstr ""
+msgstr "računalnik"
 
 #. module: web
 #. odoo-javascript
@@ -16418,7 +16418,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "folder"
-msgstr ""
+msgstr "mapa"
 
 #. module: web
 #. odoo-javascript
@@ -16629,7 +16629,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "frame"
-msgstr ""
+msgstr "okvir"
 
 #. module: web
 #. odoo-javascript
@@ -20036,7 +20036,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "large"
-msgstr ""
+msgstr "velik"
 
 #. module: web
 #. odoo-javascript
@@ -21832,7 +21832,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "medium"
-msgstr ""
+msgstr "srednji"
 
 #. module: web
 #. odoo-javascript
@@ -25874,7 +25874,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "purple"
-msgstr ""
+msgstr "vijolična"
 
 #. module: web
 #. odoo-javascript
@@ -26332,7 +26332,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "red"
-msgstr ""
+msgstr "rdeča"
 
 #. module: web
 #. odoo-javascript
@@ -27487,7 +27487,7 @@ msgstr "sekunda"
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "secure"
-msgstr ""
+msgstr "varno"
 
 #. module: web
 #. odoo-javascript
@@ -28339,7 +28339,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "small"
-msgstr ""
+msgstr "mali"
 
 #. module: web
 #. odoo-javascript
@@ -29081,7 +29081,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "sports"
-msgstr ""
+msgstr "športi"
 
 #. module: web
 #. odoo-javascript
@@ -29632,7 +29632,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "sunglasses"
-msgstr ""
+msgstr "sončna očala"
 
 #. module: web
 #. odoo-javascript
@@ -32118,7 +32118,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "wedding"
-msgstr ""
+msgstr "poroka"
 
 #. module: web
 #. odoo-javascript
@@ -33447,7 +33447,7 @@ msgstr ""
 #: code:addons/web/static/src/core/emoji_picker/emoji_data.js:0
 #, python-format
 msgid "yellow"
-msgstr ""
+msgstr "rumena"
 
 #. module: web
 #. odoo-javascript

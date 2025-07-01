@@ -6,16 +6,16 @@
 # Martin Trigaux, 2023
 # Iran Villalobos López, 2024
 # Wil Odoo, 2025
-# Fernanda Alvarez, 2025
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025
+# Fernanda Alvarez, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+"POT-Creation-Date: 2025-06-20 18:35+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2025\n"
+"Last-Translator: Fernanda Alvarez, 2025\n"
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/41243/es_419/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5257,7 +5257,7 @@ msgstr "Personalice su diseño."
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Cut-Off"
-msgstr "Cierre"
+msgstr "Corte"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_DAP
@@ -6229,7 +6229,7 @@ msgstr "CAMBIO"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_term__early_discount
 msgid "Early Discount"
-msgstr "Descuento por anticipo"
+msgstr "Descuento por pago anticipado"
 
 #. module: account
 #. odoo-python
@@ -6633,17 +6633,17 @@ msgstr "Valor externo"
 #. module: account
 #: model:account.incoterms,name:account.incoterm_FAS
 msgid "FREE ALONGSIDE SHIP"
-msgstr "GRATIS JUNTO CON EL ENVÍO"
+msgstr "LIBRE AL COSTADO DEL BUQUE"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_FCA
 msgid "FREE CARRIER"
-msgstr "TRANSPORTISTA GRATIS"
+msgstr "LIBRE TRANSPORTE"
 
 #. module: account
 #: model:account.incoterms,name:account.incoterm_FOB
 msgid "FREE ON BOARD"
-msgstr "GRATIS A BORDO"
+msgstr "LIBRE A BORDO"
 
 #. module: account
 #. odoo-python
@@ -6706,7 +6706,7 @@ msgstr "Estados federales"
 #: model:ir.model.fields,field_description:account.field_account_report_column__figure_type
 #: model:ir.model.fields,field_description:account.field_account_report_expression__figure_type
 msgid "Figure Type"
-msgstr "Tipo de figura"
+msgstr "Tipo de cifra"
 
 #. module: account
 #. odoo-javascript
@@ -6864,7 +6864,7 @@ msgstr "Fin del año fiscal "
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.setup_financial_year_opening_form
 msgid "Fiscal Years"
-msgstr "Años fiscales"
+msgstr "Ejercicios fiscales"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_report_external_value__foreign_vat_fiscal_position_id
@@ -11767,7 +11767,7 @@ msgstr "Cuenta de ganancias"
 #: model:ir.model.fields.selection,name:account.selection__account_journal__type__purchase
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_search
 msgid "Purchase"
-msgstr "Compra"
+msgstr "Compras"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__group_show_purchase_receipts
@@ -12400,7 +12400,7 @@ msgstr "Raíz"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_report__root_report_id
 msgid "Root Report"
-msgstr "Reporte raíz"
+msgstr "Reporte principal"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__tax_calculation_rounding_method__round_globally
@@ -13157,7 +13157,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Set as Checked"
-msgstr "Establecer como seleccionado"
+msgstr "Establecer como comprobado"
 
 #. module: account
 #: model:onboarding.onboarding.step,description:account.onboarding_onboarding_step_default_taxes
@@ -14041,8 +14041,8 @@ msgid ""
 "related fields)."
 msgstr ""
 "Campo técnico que contiene los países para los que esta empresa utiliza "
-"funciones relacionadas a impuestos (de ahí que los módulos l10n deban "
-"mostrar los campos relacionados con los impuestos)."
+"funciones relacionadas con impuestos (y, por lo tanto, aquellos para los que"
+" los módulos l10n deben mostrar los campos fiscales)."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__bank_partner_id
@@ -17078,9 +17078,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
 #, python-format
-msgid "You can't create payments for entries belonging to different branches."
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
 msgstr ""
-"No puede crear pagos para asientos que pertenezcan a diferentes sucursales."
+"No puede crear pagos para asientos que pertenezcan a diferentes sucursales "
+"sin acceso a la empresa principal."
 
 #. module: account
 #. odoo-python

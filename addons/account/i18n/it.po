@@ -6,16 +6,16 @@
 # Martin Trigaux, 2023
 # Lorenzo Battistini <lb@takobi.online>, 2024
 # Sergio Zanchetta <primes2h@gmail.com>, 2024
-# Marianna Ciofani, 2025
 # Wil Odoo, 2025
+# Marianna Ciofani, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-14 20:46+0000\n"
+"POT-Creation-Date: 2025-06-20 18:35+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Marianna Ciofani, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11009,7 +11009,7 @@ msgstr "Avviso crediti partner"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_moves_ledger_partner
 msgid "Partner Ledger"
-msgstr "Estratto conto cliente - fornitore"
+msgstr "Partitario clienti/fornitori"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__use_partner_credit_limit
@@ -17082,10 +17082,12 @@ msgstr ""
 #. odoo-python
 #: code:addons/account/wizard/account_payment_register.py:0
 #, python-format
-msgid "You can't create payments for entries belonging to different branches."
+msgid ""
+"You can't create payments for entries belonging to different branches "
+"without access to parent company."
 msgstr ""
-"Impossibile creare pagamenti per registrazioni che appartengono a filiali "
-"diverse."
+"Non è possibile creare pagamenti per registrazioni che appartengono a "
+"diverse filiali senza accedere all'azienda principale."
 
 #. module: account
 #. odoo-python

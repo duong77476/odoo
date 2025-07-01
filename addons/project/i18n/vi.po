@@ -47,7 +47,7 @@ msgstr ""
 #: code:addons/project/static/src/views/project_task_calendar/project_task_calendar_controller.js:0
 #, python-format
 msgid " - Tasks by Deadline"
-msgstr "- Nhiệm vụ theo hạn chót"
+msgstr "- Nhiệm vụ theo thời hạn"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__collaborator_count
@@ -573,7 +573,7 @@ msgstr "<strong class=\"d-block mb-2\">Đính kèm</strong>"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
 msgid "<strong>Deadline:</strong>"
-msgstr "<strong>Hạn chót:</strong>"
+msgstr "<strong>Thời hạn:</strong>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
@@ -1742,7 +1742,7 @@ msgstr "Số ngày tới hạn"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form_project_base
 #, python-format
 msgid "Deadline"
-msgstr "Hạn chót"
+msgstr "Thời hạn"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_message_user_assigned
@@ -2965,7 +2965,7 @@ msgstr "Hạn chót hoạt động"
 #: model_terms:ir.ui.view,arch_db:project.project_task_view_tree_base
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "My Deadline"
-msgstr "Hạn chót của tôi"
+msgstr "Thời hạn của tôi"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
@@ -3383,7 +3383,7 @@ msgid ""
 "Organize your tasks by dispatching them across the pipeline.<br>\n"
 "                    Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
-"Sắp xếp các nhiệm vụ của bạn bằng cách điều chuyển chúng trong chu trình làm việc.<br>\n"
+"Sắp xếp các nhiệm vụ của bạn bằng cách điều chuyển chúng trong quy trình làm việc.<br>\n"
 "                    Cộng tác hiệu quả bằng cách trò chuyện trong thời gian thực hoặc qua email."
 
 #. module: project
