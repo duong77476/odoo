@@ -5,16 +5,16 @@
 # Translators:
 # Jolien De Paepe, 2024
 # Wil Odoo, 2024
-# Manon Rondou, 2025
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2025
+# Manon Rondou, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 10:34+0000\n"
+"POT-Creation-Date: 2025-06-06 18:37+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2025\n"
+"Last-Translator: Manon Rondou, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,13 +79,11 @@ msgstr ""
 #, python-format
 msgid ""
 "A participant with these details has already been registered on the network."
-" If you have previously registered to an alternative Peppol service, please "
-"deregister from that service, or request a migration key before trying "
-"again. "
+" If you have previously registered to a Peppol service, please deregister."
 msgstr ""
-"Een deelnemer met deze gegevens is al geregistreerd op je netwerk. Als je al"
-" geregistreerd ben bij een andere Peppol-dienst, meld je dan af bij die "
-"dienst of vraag een migratiesleutel aan voordat je het opnieuw probeert."
+"Een deelnemer met deze gegevens is al geregistreerd op het netwerk. Als je "
+"je eerder hebt geregistreerd bij een Peppol-dienst, schrijf je dan eerst "
+"uit."
 
 #. module: account_peppol
 #. odoo-python

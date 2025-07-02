@@ -1668,7 +1668,7 @@ msgstr "公司"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__company_has_template
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_company_has_template
 msgid "Company has chart of accounts"
-msgstr "公司有會計科目表"
+msgstr "公司有會計賬目總表"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -2116,7 +2116,7 @@ msgstr "每日時段記載你銷售點進行的銷售。"
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_pos_dashboard
 msgid "Dashboard"
-msgstr "儀表板"
+msgstr "Dashboard"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -4504,7 +4504,7 @@ msgstr "POS 銷售"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_account_payment__pos_session_id
 msgid "POS Session"
-msgstr "POS營業點"
+msgstr "POS 操作時段"
 
 #. module: point_of_sale
 #. odoo-python
@@ -5107,7 +5107,7 @@ msgstr "POS打印機"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_session_search
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_session_tree
 msgid "Point of Sale Session"
-msgstr "POS營業點"
+msgstr "POS 操作時段"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.qunit_suite
@@ -5195,7 +5195,7 @@ msgstr "PoS可選類別"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_daily_sales_reports_wizard__pos_session_id
 #: model:ir.model.fields,field_description:point_of_sale.field_stock_picking__pos_session_id
 msgid "Pos Session"
-msgstr "POS營業點"
+msgstr "POS 操作時段"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__pos_session_duration
@@ -5215,7 +5215,7 @@ msgstr "POS營業點使用者"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__open_session_ids
 msgid "Pos Sessions"
-msgstr "POS營業點"
+msgstr "POS 操作時段"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_daily_sales_reports_wizard

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 20:36+0000\n"
+"POT-Creation-Date: 2025-06-13 00:52+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
 "Last-Translator: Fernanda Alvarez, 2025\n"
 "Language-Team: Spanish (Latin America) (https://app.transifex.com/odoo/teams/41243/es_419/)\n"
@@ -4819,7 +4819,7 @@ msgstr "Correo electrónico y marketing"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Email Marketing"
-msgstr "Marketing por correo electrónico"
+msgstr "Marketing por correo"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view
@@ -8034,7 +8034,7 @@ msgid ""
 "them an SMS, or call them right away while they are browsing your website."
 msgstr ""
 "Monitoree a sus visitantes mientras navegan en su sitio web con la "
-"aplicación Marketing social de Odoo. Interactúe con ellos con solo un clic "
+"aplicación Redes sociales de Odoo. Interactúe con ellos con solo un clic "
 "gracias al chat en vivo o con una notificación emergente. Si han completado "
 "uno de sus formularios, también puede enviarles un SMS o llamarles mientras "
 "navegan por su sitio web."
@@ -10602,7 +10602,7 @@ msgstr "Mostrar la barra de cookies"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Show/Hide on Desktop"
-msgstr "Mostrar/ocultar en el escritorio"
+msgstr "Mostrar/ocultar en escritorio"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -12264,6 +12264,13 @@ msgstr ""
 "CDN "
 
 #. module: website
+#. odoo-python
+#: code:addons/website/models/website_rewrite.py:0
+#, python-format
+msgid "URL must not start with '#'."
+msgstr "La URL no debe comenzar con \"#\"."
+
+#. module: website
 #: model:ir.model.fields,field_description:website.field_website_rewrite__url_to
 msgid "URL to"
 msgstr "URL a"
@@ -13836,6 +13843,13 @@ msgstr "y"
 #, python-format
 msgid "and copy paste the address of the font page here."
 msgstr "y copie y pegue la dirección de la fuente aquí."
+
+#. module: website
+#. odoo-python
+#: code:addons/website/models/website_rewrite.py:0
+#, python-format
+msgid "base URL of 'URL to' should not be same as 'URL from'."
+msgstr "La URL base de \"URL a\" no debe ser la misma que la de \"URL de\"."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets

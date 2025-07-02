@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 20:36+0000\n"
+"POT-Creation-Date: 2025-06-13 00:52+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
 "Last-Translator: Deniz Guvener_Odoo <degu@odoo.com>, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
@@ -741,6 +741,8 @@ msgid ""
 "<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>\n"
 "                        <span class=\"o_force_ltr\"><small>+1 555-555-5556</small></span>"
 msgstr ""
+"<i class=\"fa fa-1x fa-fw fa-phone me-1\"/>\n"
+"                        <span class=\"o_force_ltr\"><small>+1 555-555-5556</small></span>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.header_text_element
@@ -2034,7 +2036,7 @@ msgstr "Tüm bu simgeler ticari kullanım için tamamen ücretsizdir."
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_3_s_three_columns
 msgid "All-Day Comfort"
-msgstr ""
+msgstr "Tüm Gün Konfor"
 
 #. module: website
 #. odoo-javascript
@@ -5436,6 +5438,9 @@ msgid ""
 "He loves to keep his hands full by participating in the development of the "
 "software, marketing, and customer experience strategies."
 msgstr ""
+"Kurucu ve baş vizyoner olan Tony, şirketin arkasındaki itici güçtür. Yazılım"
+" geliştirme, pazarlama ve müşteri deneyimi stratejilerine katılarak kendini "
+"meşgul tutmayı sever."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_team_s_media_list
@@ -7695,7 +7700,7 @@ msgstr "Menü Öğesi %s"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns_menu
 msgid "Menu One"
-msgstr ""
+msgstr "Menü Bir"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_configurator_feature__menu_sequence
@@ -7705,7 +7710,7 @@ msgstr "Menü Sırası"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns_menu
 msgid "Menu Two"
-msgstr ""
+msgstr "Menü İki"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_theme_website_menu__copy_ids
@@ -8367,7 +8372,7 @@ msgstr "Sayılar"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_2_s_three_columns
 msgid "Nutritional Guidance"
-msgstr ""
+msgstr "Beslenme Rehberliği"
 
 #. module: website
 #. odoo-javascript
@@ -8656,6 +8661,8 @@ msgid ""
 "Our Coaching combines personalized fitness plans with mindfulness practices,"
 " ensuring you achieve harmony in your body and peace in your mind."
 msgstr ""
+"Koçluğumuz, kişiselleştirilmiş fitness planlarını farkındalık "
+"uygulamalarıyla birleştirerek bedeninizde denge, zihninizde huzur sağlar."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
@@ -8675,7 +8682,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_about_s_three_columns
 msgid "Our Mission"
-msgstr ""
+msgstr "Misyonumuz"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_3_s_text_block_h2
@@ -8703,7 +8710,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_about_mini_s_text_block_h2
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_about_s_three_columns
 msgid "Our Story"
-msgstr ""
+msgstr "Hikayemiz"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_about_s_picture
@@ -8714,7 +8721,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_about_s_three_columns
 msgid "Our Values"
-msgstr ""
+msgstr "Değerlerimiz"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_2_s_three_columns
@@ -9052,7 +9059,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_2_s_three_columns
 msgid "Personalized Workouts"
-msgstr ""
+msgstr "Kişiye Özel Egzersiz Programları"
 
 #. module: website
 #. odoo-javascript
@@ -9386,7 +9393,7 @@ msgstr "İlerleme Çubuğu Ağırlığı"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_2_s_three_columns
 msgid "Progress Tracking"
-msgstr ""
+msgstr "İlerleme Takibi"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_progress_bar
@@ -10848,6 +10855,9 @@ msgid ""
 "innovative force. Our journey, born in a garage, reflects the power of "
 "passion and hard work."
 msgstr ""
+"Geçmişimize adım atın ve basit bir fikrin yenilikçi bir güce dönüşümüne "
+"tanık olun. Bir garajda başlayan yolculuğumuz, tutku ve sıkı çalışmanın "
+"gücünü yansıtıyor."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -10889,7 +10899,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_services_0_s_three_columns
 msgid "Strength Training:"
-msgstr ""
+msgstr "Kuvvet Antrenmanı:"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -12082,6 +12092,13 @@ msgstr ""
 "Bu filtrelerle URL'nin eşleşmesi CDN Temel URL kullanılarak tekrar yazılacak"
 
 #. module: website
+#. odoo-python
+#: code:addons/website/models/website_rewrite.py:0
+#, python-format
+msgid "URL must not start with '#'."
+msgstr ""
+
+#. module: website
 #: model:ir.model.fields,field_description:website.field_website_rewrite__url_to
 msgid "URL to"
 msgstr "URL adresi"
@@ -13125,7 +13142,7 @@ msgstr "Hoşgeldiniz"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_services_0_s_three_columns
 msgid "Wellness Coaching"
-msgstr ""
+msgstr "İyi Yaşam Koçluğu"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_about_personal_s_text_block_h2
@@ -13156,7 +13173,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.new_page_template_landing_3_s_three_columns
 msgid "Wireless Freedom"
-msgstr ""
+msgstr "Kablosuz Özgürlük"
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__ir_ui_view__visibility__password
@@ -13170,6 +13187,9 @@ msgid ""
 " support, you'll shed unwanted pounds while building healthy habits that "
 "last."
 msgstr ""
+"Kişiselleştirilmiş fitness planları, özel beslenme rehberliği ve sürekli "
+"destek sayesinde, kalıcı sağlıklı alışkanlıklar geliştirirken istenmeyen "
+"kilolardan kurtulacaksınız."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_menus_logos
@@ -13623,6 +13643,13 @@ msgstr "ve"
 #, python-format
 msgid "and copy paste the address of the font page here."
 msgstr "tıklayın ve yazı tipi sayfasının adresini buraya yapıştırın."
+
+#. module: website
+#. odoo-python
+#: code:addons/website/models/website_rewrite.py:0
+#, python-format
+msgid "base URL of 'URL to' should not be same as 'URL from'."
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
