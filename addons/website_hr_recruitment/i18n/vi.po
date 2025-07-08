@@ -53,7 +53,7 @@ msgstr ""
 #: code:addons/website_hr_recruitment/models/hr_recruitment.py:0
 #, python-format
 msgid "%s's Application"
-msgstr "Đơn xin việc của %s"
+msgstr "Đơn ứng tuyển của %s"
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
