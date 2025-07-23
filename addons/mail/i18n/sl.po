@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-09 20:36+0000\n"
+"POT-Creation-Date: 2025-07-11 01:02+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
 "Last-Translator: Aleš Pipan, 2025\n"
 "Language-Team: Slovenian (https://app.transifex.com/odoo/teams/41243/sl/)\n"
@@ -370,6 +370,8 @@ msgid ""
 ",\n"
 "    <br/><br/>"
 msgstr ""
+",\n"
+"    <br/><br/>"
 
 #. module: mail
 #. odoo-javascript
@@ -736,7 +738,7 @@ msgstr "Mešanje aktivnosti"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_activity_plan
 msgid "Activity Plan"
-msgstr ""
+msgstr "Načrt aktivnosti"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_activity_plan_action
@@ -784,7 +786,7 @@ msgstr "Tipi aktivnosti"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_activity_plan_template
 msgid "Activity plan template"
-msgstr ""
+msgstr "Predloga načrta aktivnosti"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_activity_schedule
@@ -1305,7 +1307,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_plan_template__responsible_type
 msgid "Assignment"
-msgstr ""
+msgstr "Naloga"
 
 #. module: mail
 #. odoo-python
@@ -1967,6 +1969,9 @@ msgid ""
 "Chat is private and unique between 2 persons. Group is private among invited"
 " persons. Channel can be freely joined (depending on its configuration)."
 msgstr ""
+"Klepet je zaseben in edinstven med dvema osebama. Skupina je zasebna med "
+"povabljenimi osebami. Kanalu se je mogoče prosto pridružiti (odvisno od "
+"njegove konfiguracije)."
 
 #. module: mail
 #. odoo-javascript
@@ -2520,7 +2525,7 @@ msgstr "Datum nastanka"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_alias_view_search
 msgid "Creator"
-msgstr ""
+msgstr "Ustvarjalec"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_ice_server__credential
@@ -3427,7 +3432,7 @@ msgstr "Elektronska pošta"
 #: code:addons/mail/static/src/discuss/gif_picker/common/picker_content_patch.xml:0
 #, python-format
 msgid "Emoji"
-msgstr ""
+msgstr "Emoji"
 
 #. module: mail
 #. odoo-javascript
@@ -5832,7 +5837,7 @@ msgstr "Obvestila o sporočilih"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_message_reaction
 msgid "Message Reaction"
-msgstr ""
+msgstr "Odziv na sporočilo"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_message_reaction_action
@@ -5997,7 +6002,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_mail__failure_type__mail_email_missing
 msgid "Missing email"
-msgstr ""
+msgstr "Manjka e-poštni naslov"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_notification__failure_type__mail_email_missing
@@ -10114,7 +10119,7 @@ msgstr ""
 #: code:addons/mail/static/src/discuss/web/avatar_card/avatar_card_popover.xml:0
 #, python-format
 msgid "User is idle"
-msgstr ""
+msgstr "Uporabnik je nedejaven"
 
 #. module: mail
 #. odoo-javascript
@@ -10130,7 +10135,7 @@ msgstr ""
 #: code:addons/mail/static/src/discuss/web/avatar_card/avatar_card_popover.xml:0
 #, python-format
 msgid "User is online"
-msgstr ""
+msgstr "Uporabnik je na spletu"
 
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_discuss_gif_favorite_user_gif_favorite
@@ -10348,7 +10353,7 @@ msgstr ""
 #: code:addons/mail/static/src/discuss/core/public/welcome_page.xml:0
 #, python-format
 msgid "What's your name?"
-msgstr ""
+msgstr "Kako ti je ime?"
 
 #. module: mail
 #. odoo-python
@@ -10499,7 +10504,7 @@ msgstr ""
 #: code:addons/mail/controllers/attachment.py:0
 #, python-format
 msgid "You are not allowed to upload attachments on this channel."
-msgstr ""
+msgstr "Na ta kanal ne smete nalagati prilog."
 
 #. module: mail
 #. odoo-javascript
@@ -10545,6 +10550,14 @@ msgstr ""
 
 #. module: mail
 #. odoo-python
+#: code:addons/mail/models/mail_activity_type.py:0
+#, python-format
+msgid ""
+"You cannot delete %(activity_names)s as it is required in various apps."
+msgstr ""
+
+#. module: mail
+#. odoo-python
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 #, python-format
 msgid ""
@@ -10553,6 +10566,15 @@ msgid ""
 msgstr ""
 "Teh skupin ne morete brisati, ker se skupina Celotna družba zahteva s strani"
 " drugih modulov."
+
+#. module: mail
+#. odoo-python
+#: code:addons/mail/models/mail_activity_type.py:0
+#, python-format
+msgid ""
+"You cannot modify %(activities_names)s target model as they are are required"
+" in various apps."
+msgstr ""
 
 #. module: mail
 #. odoo-python
@@ -10985,7 +11007,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.mail_alias_view_form
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "e.g. domain.com"
-msgstr ""
+msgstr "npr. domena.com"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.discuss_channel_view_form

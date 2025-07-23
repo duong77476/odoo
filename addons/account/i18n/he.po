@@ -43,7 +43,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-20 18:35+0000\n"
+"POT-Creation-Date: 2025-06-27 02:30+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
 "Last-Translator: or balmas, 2025\n"
 "Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
@@ -718,6 +718,9 @@ msgid ""
 "title=\"The email address is unknown on the partner\" invisible=\"not "
 "send_mail_readonly\"/>"
 msgstr ""
+"<i class=\"fa fa-question-circle ml4\" role=\"img\" aria-label=\"Warning\" "
+"title=\"The email address is unknown on the partner\" invisible=\"not "
+"send_mail_readonly\"/>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_terms_conditions_setting_banner
@@ -5654,6 +5657,11 @@ msgstr "הנחה של %(amount)s אם ישולם בתוך %(days)s ימים "
 #: model:ir.model.fields,field_description:account.field_account_analytic_applicability__display_account_prefix
 msgid "Display Account Prefix"
 msgstr "הצג קידומת חשבון"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_journal__display_alias_fields
+msgid "Display Alias Fields"
+msgstr "הצגת שדות כינויים"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__display_amount
